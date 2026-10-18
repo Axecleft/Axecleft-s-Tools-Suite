@@ -1,0 +1,53 @@
+# Publishes the wiki/ folder to this repository's wiki.
+# Only the pages changed by a push are copied, so pages edited directly in the wiki (screenshots) are left alone.
+# Run it by hand (Actions → Publish wiki → Run workflow) to copy every page.
+name: Publish wiki
+
+on:
+  push:
+    branches: [main]
+    paths: ["wiki/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-wiki
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Copy the pages into the wiki
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BEFORE: ${{ github.event.before }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          set -e
+          git clone "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git" wikirepo
+          if [ "$EVENT" = "workflow_dispatch" ] || [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            git ls-files wiki > changed.txt
+          else
+            git diff --name-only --diff-filter=AMR "$BEFORE" "$GITHUB_SHA" -- wiki > changed.txt
+          fi
+          while IFS= read -r f; do
+            [ -n "$f" ] || continue
+            rel="${f#wiki/}"
+            mkdir -p "wikirepo/$(dirname "$rel")"
+            cp "$f" "wikirepo/$rel"
+            echo "copied $rel"
+          done < changed.txt
+          cd wikirepo
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Nothing to publish."; exit 0; fi
+          git commit -m "Publish wiki pages from ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
+          git push
