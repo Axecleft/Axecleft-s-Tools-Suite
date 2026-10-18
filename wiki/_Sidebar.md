@@ -31,3 +31,6 @@
 - [Module settings](Settings)
 - [Languages](Languages)
 - [FAQ](FAQ)
+
+---
+🌐 [Français](fr-Accueil) · [Español](es-Inicio) · [Português (BR)](pt-BR-Início) · [Português (PT)](pt-PT-Início)

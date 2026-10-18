@@ -1,5 +1,7 @@
 # Axecleft's Tool Suite
 
+🌐 **English** · [Français](fr-Accueil) · [Español](es-Inicio) · [Português (BR)](pt-BR-Início) · [Português (PT)](pt-PT-Início)
+
 A set of Foundry VTT modules for the **D35E** (D&D 3.5) system that generate treasure, stock merchants, craft items and build traps, all by the 3.5 SRD.
 
 | Module | What it adds |
