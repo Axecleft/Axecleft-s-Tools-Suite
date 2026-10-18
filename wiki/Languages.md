@@ -10,6 +10,8 @@ Axecleft's modules show their windows, chat cards and generated item names in Fo
 
 Brazilian Portuguese falls back to European Portuguese (and the other way round), then to English.
 
+The **User Guide** button opens this wiki in Foundry's language when a translation exists (French, Spanish, Portuguese), otherwise in English. The Spanish and Portuguese guides are ready even though the modules themselves still show English: they give each button's English name with its translation.
+
 ## Worlds in other languages
 
 ### Translated compendiums (Babele)

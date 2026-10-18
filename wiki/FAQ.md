@@ -11,6 +11,9 @@ Any one of them works alone. Each adds its part to the shared tools: Armory (wea
 **Something is missing on Foundry 11.**
 Intelligent items need D35E 3.1 or later, so their options are hidden on Foundry 11.
 
+**The User Guide opens in English.**
+It follows the language chosen in Foundry. If the wiki has no translation for your language yet, it opens in English.
+
 ## Treasure
 
 **Psionic items never show up.**
@@ -66,6 +69,9 @@ Trap kits are for mechanical traps only; magic traps come from spellcasting. The
 
 **Players can see a trap they shouldn't.**
 Check **Trap kits: who sees a placed trap** in [Trap Kits](Trap-Kits#settings). With **GM only**, the token is hidden.
+
+**I can't recover a trap.**
+Only active mechanical traps can be packed back into a kit, and only while **Trap kits: placed traps can be recovered** is on. Magic traps are disabled with Disable Device instead. See [Recovering a trap](Trap-Kits#recovering-a-trap).
 
 ## Languages
 
