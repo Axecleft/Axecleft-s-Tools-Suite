@@ -68,3 +68,11 @@ Los incluyen Armory, Curios y Traps. Consulta [Fabricación](es-Fabricación#aju
 | **Trap kits: crafting progress** | Silver pieces (SRD) |
 
 Consulta [Kits de trampa](es-Kits-de-trampa#ajustes) para los detalles.
+
+## Join the Discord (unirse al Discord)
+
+La sección de cada módulo de Axecleft también tiene **Join the Discord** y un botón **Open Discord** (abrir Discord). Abre el [servidor de Discord de Axecleft's Tool Suite](https://discord.gg/FRhPPwDWta) en tu navegador, para ayuda, novedades e ideas. Todos, también los jugadores, tienen además un botón **Join the Discord** en el menú Axecleft's Tools.
+
+## Support on Patreon (apoyar en Patreon)
+
+La sección de cada módulo de Axecleft empieza con **Support on Patreon** y un botón **Open Patreon** (abrir Patreon). Abre el [Patreon de Axecleft](https://www.patreon.com/Axecleft) en tu navegador y no cambia nada en tu mundo. Los jugadores también lo ven; el DJ tiene además un botón **Support on Patreon** en el menú Axecleft's Tools.

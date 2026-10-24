@@ -68,3 +68,11 @@ Shipped by Armory, Curios and Traps. See [Crafting](Crafting#settings) for detai
 | **Trap kits: crafting progress** | Silver pieces (SRD) |
 
 See [Trap Kits](Trap-Kits#settings) for details.
+
+## Join the Discord
+
+Each Axecleft module's section also has **Join the Discord** and an **Open Discord** button. It opens [Axecleft's Tool Suite Discord server](https://discord.gg/FRhPPwDWta) in your web browser, for help, news and ideas. Everyone, players included, also has a **Join the Discord** button in the Axecleft's Tools menu.
+
+## Support on Patreon
+
+Each Axecleft module's section starts with **Support on Patreon** and an **Open Patreon** button. It opens [Axecleft's Patreon](https://www.patreon.com/Axecleft) in your web browser and changes nothing in your world. Players see it too; the GM also has a **Support on Patreon** button in the Axecleft's Tools menu.

@@ -32,5 +32,9 @@
 - [Idiomas](pt-PT-Idiomas)
 - [Perguntas frequentes](pt-PT-Perguntas-frequentes)
 
+**Apoiar**
+- [Discord](https://discord.gg/FRhPPwDWta)
+- [Patreon](https://www.patreon.com/Axecleft)
+
 ---
 🌐 [English](Home) · [Français](fr-Accueil) · [Español](es-Inicio) · [Português (BR)](pt-BR-Início)

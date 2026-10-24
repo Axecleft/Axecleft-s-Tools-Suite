@@ -28,7 +28,13 @@ Cada módulo funciona por sí solo, y juntos funcionan mejor. Las ventanas **Tre
 - **Foundry VTT 13 y 14** con D35E 3.x: módulos en versión **1.14.x**.
 - **Foundry VTT 11** con D35E 2.4.3: módulos en versión **1.11.x** (descargas aparte). Los objetos inteligentes necesitan D35E 3.1 o posterior, así que se ocultan en Foundry 11.
 
+## Apoya la suite
+
+Todos los módulos son gratuitos. Si te sirven en tu mesa, puedes apoyar su desarrollo en [Patreon](https://www.patreon.com/Axecleft): los mecenas reciben las nuevas versiones dos semanas antes que nadie. El botón **Support on Patreon** (apoyar en Patreon), en los ajustes de cada módulo y en el menú Axecleft's Tools, abre la misma página.
+
 ## Obtener ayuda
+
+Haz preguntas, comparte ideas y sigue las novedades en el [servidor de Discord de Axecleft's Tool Suite](https://discord.gg/FRhPPwDWta).
 
 Informa de problemas o ideas en la página de GitHub del módulo (en inglés, si puedes). Indica qué módulo y versión, qué versiones de Foundry y D35E, y en qué hiciste clic; una captura de la ventana y de la consola del navegador (F12) ayuda mucho.
 
