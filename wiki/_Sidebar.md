@@ -1,40 +1,40 @@
-**[Home](Home)**
+**[Início](pt-BR-Início)**
 
-**Start here**
-- [Getting Started](Getting-Started)
+**Para começar**
+- [Primeiros passos](pt-BR-Primeiros-passos)
 
-**Treasure Generator**
-- [The window](Treasure-Generator)
-- [Treasure by Level](Treasure-by-Level)
-- [Generation Settings](Generation-Settings)
-- [Cursed Items](Cursed-Items)
-- [Token Loot](Token-Loot)
-- [Gems, Art and Jewelry](Gems-Art-and-Jewelry)
-- [Forge (Armory)](Forge)
-- [Curios Workshop](Curios-Workshop)
-- [Lists and the Treasure Lists journal](Treasure-Lists)
+**Treasure Generator (gerador de tesouros)**
+- [A janela](pt-BR-Gerador-de-tesouros)
+- [Tesouro por nível](pt-BR-Tesouro-por-nível)
+- [Configurações de geração](pt-BR-Configurações-de-geração)
+- [Itens amaldiçoados](pt-BR-Itens-amaldiçoados)
+- [Saque de tokens](pt-BR-Saque-de-tokens)
+- [Gemas, arte e joias](pt-BR-Gemas-arte-e-joias)
+- [Forja (Armory)](pt-BR-Forja)
+- [Oficina Curios](pt-BR-Oficina-Curios)
+- [Listas e o diário de listas de tesouros](pt-BR-Listas-de-tesouros)
 
-**Merchants**
-- [Merchant Generator](Merchant-Generator)
-- [Shop Tags](Shop-Tags)
+**Mercadores**
+- [Merchant Generator](pt-BR-Gerador-de-mercadores)
+- [Shop Tags](pt-BR-Etiquetas-de-loja)
 
-**Crafting**
-- [The Crafting window](Crafting)
-- [Crafting tabs](Crafting-Tabs)
+**Fabricação**
+- [A janela Crafting](pt-BR-Fabricação)
+- [Abas de fabricação](pt-BR-Abas-de-fabricação)
 
-**Traps, Poisons, and Diseases**
-- [Random Trap Generator](Random-Trap-Generator)
-- [Poison and Disease Creator](Poison-and-Disease-Creator)
-- [Trap Kits and My Traps](Trap-Kits)
+**Armadilhas, venenos e doenças**
+- [Random Trap Generator](pt-BR-Gerador-de-armadilhas-aleatórias)
+- [Poison & Disease Creator](pt-BR-Criador-de-venenos-e-doenças)
+- [Kits de armadilha e My Traps](pt-BR-Kits-de-armadilha)
 
-**Reference**
-- [Module settings](Settings)
-- [Languages](Languages)
-- [FAQ](FAQ)
+**Referência**
+- [Configurações dos módulos](pt-BR-Configurações)
+- [Idiomas](pt-BR-Idiomas)
+- [Perguntas frequentes](pt-BR-Perguntas-frequentes)
 
-**Support**
+**Apoiar**
 - [Discord](https://discord.gg/FRhPPwDWta)
 - [Patreon](https://www.patreon.com/Axecleft)
 
 ---
-🌐 [Français](fr-Accueil) · [Español](es-Inicio) · [Português (BR)](pt-BR-Início) · [Português (PT)](pt-PT-Início)
+🌐 [English](Home) · [Français](fr-Accueil) · [Español](es-Inicio) · [Português (PT)](pt-PT-Início)
