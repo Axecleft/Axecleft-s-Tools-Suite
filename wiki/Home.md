@@ -28,7 +28,7 @@ Each module works on its own, and they work better together. The **Treasure Gene
 
 ## Support the suite
 
-Every module is free. If they help at your table, you can support their development on [Patreon](https://www.patreon.com/Axecleft): patrons get new releases two weeks before everyone else. The **Support on Patreon** button in each module's settings, and in the Axecleft's Tools menu, opens the same page.
+Every module is free. If they help at your table, you can support their development on [Patreon](https://www.patreon.com/Axecleft): patrons get new releases two weeks before everyone else. The welcome window that opens when Foundry starts has the link, and so does the **Axecleft's Tool Suite** button in each module's settings.
 
 ## Getting help
 

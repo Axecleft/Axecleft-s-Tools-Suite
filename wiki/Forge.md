@@ -21,7 +21,7 @@ Make weapons, armor, shields and ammunition by hand. Any choice can be **Random*
 
 ## Special abilities
 
-Up to four ability slots. Each slot can be:
+Four ability slots, and another appears whenever every slot is filled. Each slot can be:
 - **None**;
 - **Random (by grade)**;
 - **Random psionic (by grade)** (only while Psionics is on);
@@ -30,8 +30,17 @@ Up to four ability slots. Each slot can be:
 The ability lists are grouped: SRD weapon abilities, SRD armor and shield abilities, their epic and psionic versions, and **Your enhancements** from your own compendiums.
 
 - **Bane foe**: for *bane*, the creature type it hates, or **Random (SRD table)**.
-- Each ability needs at least a +1 enhancement. The bonus plus the abilities can't pass +10 unless epic items are allowed.
+- Each ability needs at least a +1 enhancement. If the bonus plus the abilities pass +10 without epic items allowed, the preview warns you, but the item can still be made, priced by the normal formula (the SRD's limit is the GM's to bend). Random treasure keeps to +10.
 - Abilities that don't fit the base item are refused, such as *keen* on a mace or *returning* on a longsword.
+
+## Double weapons
+
+Each end of a double weapon (two-bladed sword, dire flail, quarterstaff…) has its own enhancement bonus and abilities (SRD). With a double weapon chosen, an **Other end (double weapons)** section appears with its own enhancement and ability slots.
+
+- The other end is priced like a weapon of its own: its price is added to the item's, and its abilities count for prerequisites and caster level.
+- Its abilities need at least a +1 bonus on that end.
+- D35E gives an item one set of enhancements, so the other end's bonus and abilities go in the item's name (*+1 Flaming Two-Bladed Sword (other end +1 frost)*), its description and an attack note.
+- Random magic double weapons follow the SRD: half the time the other end has the same bonus, else one less with no abilities.
 
 ## Light, inscription and more
 

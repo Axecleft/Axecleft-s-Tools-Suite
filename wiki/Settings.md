@@ -34,6 +34,7 @@ Shipped by Armory, Curios and Traps. See [Crafting](Crafting#settings) for detai
 | Setting | Default | What it does |
 |---|---|---|
 | **Psionic share of magic arms and armor (%)** | 10 | House rule, while Psionics is on (Treasure Generator → Generation settings): this share of random magic weapons, armor and shields that get special abilities roll them on the SRD psionic ability tables instead. 0 = none. |
+| **Special material share of random magic arms (%)** | 5 | This share of random magic weapons, ammunition, armor and shields is made of a special material that fits it (adamantine, cold iron, alchemical silver, darkwood, mithral, dragonhide), priced by the SRD. The core rules give 96–100 on d% (5%). 0 = none. |
 
 ## Axecleft's Curios
 
@@ -55,6 +56,10 @@ Shipped by Armory, Curios and Traps. See [Crafting](Crafting#settings) for detai
 |---|---|---|
 | **Gem size & quality variations** | On | Random gems use the homebrew sizes (Tiny to Huge) and qualities (Flawed to Exceptional). Off: plain SRD-value gems. The generator has the same checkbox for one-off changes. |
 | **Art & jewelry quality variations** | On | Random art and jewelry use the homebrew workmanship qualities (Junk to Masterpiece). Off: plain SRD art values. |
+| **Premade pieces in random art (%)** | 5 | How often a random art object or piece of jewelry is a premade piece (Leo's art and books, and your own on the Custom Premade Art list) instead of one built from an object, material and gem. 0 = never; they can still be picked on the Art Objects tab. |
+| **Full resale price for gems, jewelry and art** | On | Gems, jewelry and art objects are trade goods: merchants buy and sell them at their full value (D35E's **Full Resale Price**). Applies to generated pieces and to gems taken from the module's compendiums. Off: merchants buy them at half price, like other items. |
+
+**Value rolls and base values** (the GM's button) opens **Gem and art values**: your own value roll and base value for each of the 6 gem values and the 12 art values, and **A rolled value is never below the base value**. See [Gems, Art and Jewelry](Gems-Art-and-Jewelry#value-rolls-and-base-values).
 
 ## Axecleft's Traps, Poisons, and Diseases
 
@@ -69,10 +74,13 @@ Shipped by Armory, Curios and Traps. See [Crafting](Crafting#settings) for detai
 
 See [Trap Kits](Trap-Kits#settings) for details.
 
-## Join the Discord
+## Axecleft's Tool Suite
 
-Each Axecleft module's section also has **Join the Discord** and an **Open Discord** button. It opens [Axecleft's Tool Suite Discord server](https://discord.gg/FRhPPwDWta) in your web browser, for help, news and ideas. Everyone, players included, also has a **Join the Discord** button in the Axecleft's Tools menu.
+Each Axecleft module's section has an **Axecleft's Tool Suite** button (**Tool Suite settings**). It holds the settings every module shares, for everyone, players included:
 
-## Support on Patreon
+| Setting | Default | What it does |
+|---|---|---|
+| **Show the welcome window when Foundry starts (everyone in this world)** | On | GM only. Off: nobody in this world sees the welcome window. |
+| **Show it to me** | On | Just for you, on this browser. The welcome window has the same tick box (**Show this when Foundry starts**). |
 
-Each Axecleft module's section starts with **Support on Patreon** and an **Open Patreon** button. It opens [Axecleft's Patreon](https://www.patreon.com/Axecleft) in your web browser and changes nothing in your world. Players see it too; the GM also has a **Support on Patreon** button in the Axecleft's Tools menu.
+The welcome window thanks you for using the suite, has the links to [Axecleft's Tool Suite Discord server](https://discord.gg/FRhPPwDWta) (help, news and ideas), [Axecleft's Patreon](https://www.patreon.com/Axecleft) and this User Guide, and lists the Axecleft modules active in the world. **Show the welcome window** opens it at any time.

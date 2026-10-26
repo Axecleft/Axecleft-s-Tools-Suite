@@ -50,5 +50,20 @@ Your own gems, art objects, materials and embellishment gems go on the [Treasure
 In **Configure Settings → Axecleft's Gemstones**:
 - **Gem size & quality variations**: the default for the Size & quality tick box.
 - **Art & jewelry quality variations**: the default for the Quality tick box on the Art Objects and Jewelry tabs.
+- **Premade pieces in random art (%)**: how often random art is a premade piece (5% by default; 0 = never).
+- **Full resale price for gems, jewelry and art** (on by default): gems, jewelry and art objects are trade goods, so merchants buy and sell them at their full value (D35E's **Full Resale Price** on the item). It applies to generated pieces and to gems taken from the module's compendiums. Off: merchants buy them at half price, like other items.
 
-Turn them off for plain SRD values.
+Turn the variations off for plain SRD values.
+
+## Value rolls and base values
+
+**Where:** Configure Settings → Axecleft's Gemstones → **Value rolls and base values** (GM only).
+
+Each gem, art object and piece of jewelry has a **base value** (what it looks to be worth, until it is appraised) and a **value roll** (its true value, rolled when it reaches a character). The **Gem and art values** window lists the 6 gem values (10 gp to 5,000 gp) and the 12 art values, each with the SRD's roll and base beside your own boxes.
+
+- Leave a box blank to keep the SRD's.
+- A roll can use dice and `max()`, `min()`, `floor()`, `ceil()` and `round()`: `max(10, 4d4)` is never below 10.
+- **A rolled value is never below the base value**: applies that to every gem, art object and piece of jewelry.
+- Size and quality variations multiply the value rolled.
+- Gems taken from the module's compendiums roll with the same formulas.
+- **SRD values** clears your boxes. Pieces already made keep their values.

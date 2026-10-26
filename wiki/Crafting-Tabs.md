@@ -31,7 +31,7 @@ Add an enhancement bonus and special abilities to a masterwork weapon, armor, sh
 | **Material** | A special material, when buying or making it. |
 | **Enhancement** | +1 to +5, and **+6 to +20 (epic)** with **Epic** ticked. |
 | **Epic** | Allow epic enhancement. Needs **Epic items** on in [Generation Settings](Generation-Settings#campaign). |
-| **Ability 1, 2…** | Special abilities. SRD abilities carry their prerequisites in Armory's data. Psionic abilities need Craft Psionic Arms and Armor, with powers in place of spells. |
+| **Ability 1, 2…** | Special abilities. SRD abilities carry their prerequisites in Armory's data. Psionic abilities need Craft Psionic Arms and Armor, with powers in place of spells. Four rows; another appears whenever every row is filled. |
 | **Bane foe** | For *bane*: the creature type. |
 | **Sheds light** | **No** or **Yes**. SRD: the creator decides now; it can't be changed later. |
 | **Look** | The light's look: **From its abilities (or neutral)**, or a theme. |
@@ -40,7 +40,8 @@ Add an enhancement bonus and special abilities to a masterwork weapon, armor, sh
 
 - **Caster level**: at least 3 × the enhancement bonus, and each ability's own caster level.
 - **Custom abilities** (from Shared Data or your own enhancement items) are read from their description's construction line. See [How requirements are found](Crafting#how-requirements-are-found). Without one, the GM decides.
-- **Double weapons** count as two weapons for cost, time, XP and abilities (SRD). Enchant each head separately.
+- **Double weapons** count as two weapons for cost, time, XP and abilities (SRD). An **Other end (double weapons)** section sets the other end's enhancement and abilities; its gp, XP and time are added. Upgrading a double weapon keeps its other end. See [Forge](Forge#double-weapons).
+- Past +10 without epic items allowed is a warning in the crafting notes, not a refusal.
 - When it's done, the chosen item becomes the magic item.
 
 ### Upgrading a magic item
@@ -65,6 +66,7 @@ Specific magic weapons, armor, shields and ammunition (*Flame Tongue*, *Celestia
 |---|---|
 | **Kind** | **Weapons**, **Armor and shields**, or **Ammunition**. |
 | **Item** | Type to search. |
+| **How many** | Ammunition only, up to 50. Specific magic ammunition (*screaming bolt*, *slaying arrow*…) is priced per piece, so the price, cost, XP and time are multiplied. |
 
 - The requirements come from the SRD statblock in the item's description: its caster level, spells and other prerequisites.
 - Cost: the masterwork item, plus half of the magic's price in gp, and 1/25 in XP. A **Cost** in the statblock replaces it.
