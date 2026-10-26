@@ -1,0 +1,70 @@
+# Publishes the wiki/ folder to this repository's wiki.
+# Only the pages changed by a push are copied, so pages edited directly in the wiki (screenshots) are left alone.
+# Run it by hand (Actions → Publish wiki → Run workflow) to copy every page.
+# Mirror (tick "mirror" when running it by hand, or put [mirror] in a commit message): copy every page and remove the
+# wiki's pages that aren't in the wiki/ folder (duplicates left by web uploads). Pages made only in the wiki are removed too.
+name: Publish wiki
+
+on:
+  push:
+    branches: [main]
+    paths: ["wiki/**"]
+  workflow_dispatch:
+    inputs:
+      mirror:
+        description: "Also remove wiki pages that aren't in the wiki/ folder"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-wiki
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Copy the pages into the wiki
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BEFORE: ${{ github.event.before }}
+          EVENT: ${{ github.event_name }}
+          MIRROR_INPUT: ${{ github.event.inputs.mirror }}
+          MESSAGE: ${{ github.event.head_commit.message }}
+        run: |
+          set -e
+          git clone "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git" wikirepo
+          MIRROR=false
+          if [ "$MIRROR_INPUT" = "true" ]; then MIRROR=true; fi
+          case "$MESSAGE" in *"[mirror]"*) MIRROR=true ;; esac
+          if [ "$MIRROR" = "true" ]; then
+            # Remove every page, then copy them all back from wiki/ below
+            (cd wikirepo && git -c core.quotePath=false ls-files -z | xargs -0 -r git rm -q --)
+            echo "Mirror: the wiki will hold exactly the wiki/ folder."
+          fi
+          if [ "$MIRROR" = "true" ] || [ "$EVENT" = "workflow_dispatch" ] || [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            git -c core.quotePath=false ls-files wiki > changed.txt
+          else
+            git -c core.quotePath=false diff --name-only --diff-filter=AMR "$BEFORE" "$GITHUB_SHA" -- wiki > changed.txt
+          fi
+          while IFS= read -r f; do
+            [ -n "$f" ] || continue
+            rel="${f#wiki/}"
+            mkdir -p "wikirepo/$(dirname "$rel")"
+            cp "$f" "wikirepo/$rel"
+            echo "copied $rel"
+          done < changed.txt
+          cd wikirepo
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Nothing to publish."; exit 0; fi
+          git commit -m "Publish wiki pages from ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
+          git push
