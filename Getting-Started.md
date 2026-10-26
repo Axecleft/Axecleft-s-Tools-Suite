@@ -46,9 +46,11 @@ All the tools are in the **Axecleft's Tools** group on Foundry's left toolbar, n
 
 The Treasure Generator also has a **Treasure** button at the top of the **Items** sidebar.
 
-> **[Screenshot: the Axecleft's Tools group on the left toolbar]**
+> **<img width="460" height="412" alt="image" src="https://github.com/user-attachments/assets/fdf98582-71b7-4a44-8bbc-c5253b7fcb3e" />**
 
-Most tools are for the GM. Players can open **Crafting** from their character sheet (see [Crafting](Crafting)).
+Most tools are for the GM. Players see **Crafting** in their Axecleft's Tools group while the setting **Players may craft** is on (see [Crafting](Crafting)), **My Traps** (with Traps, Poisons, and Diseases), and **User Guide**.
+
+The last button, **User Guide**, opens this wiki in your web browser.
 
 ## First things to set up
 

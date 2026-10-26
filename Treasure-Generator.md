@@ -2,7 +2,7 @@
 
 Open it from **Axecleft's Tools → Treasure Generator** on the left toolbar, or the **Treasure** button at the top of the **Items** sidebar.
 
-> **[Screenshot: the Treasure Generator window with its tabs]**
+> **<img width="999" height="713" alt="image" src="https://github.com/user-attachments/assets/9c18e923-18f8-4b33-9628-8f200a2acf70" />**
 
 ## Tabs
 
@@ -34,7 +34,7 @@ Every tab that makes treasure ends with the **Put items in** box, which decides 
 - Items given to an actor or token go straight into its inventory with their true value already rolled, ready for a loot sheet. Coins go into its purse. An unlinked token keeps its loot on that one creature.
 - Items sent to the Items sidebar or the chat card start **unappraised**. Their true value is rolled when they're dropped onto a character.
 
-> **[Screenshot: the Put items in box]**
+> **<img width="291" height="405" alt="image" src="https://github.com/user-attachments/assets/4dd00f99-deab-485f-bbe3-61558d228082" />**
 
 ## Generate and the chat card
 

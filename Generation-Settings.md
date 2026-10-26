@@ -6,7 +6,7 @@ These settings control the extras that Axecleft's modules add to **randomly gene
 
 Crafting tools (the [Forge](Forge) and the [Curios Workshop](Curios-Workshop)) can always add these extras by hand, whatever is set here.
 
-> **[Screenshot: the Generation settings section]**
+> **<img width="609" height="659" alt="image" src="https://github.com/user-attachments/assets/ae8184e0-8f90-43c1-a868-cc2f9ebb6270" />**
 
 ## Campaign
 
@@ -32,6 +32,8 @@ Each cell has a tick box (on or off) and a percentage. These are the defaults:
 - **House rules:** light on armor, shields and other items.
 
 > **Foundry 11:** the Intelligent column and options are hidden, because D35E 2.4.3 doesn't support intelligent items.
+
+> **<img width="606" height="713" alt="image" src="https://github.com/user-attachments/assets/44fef60c-45f1-4b7e-a80d-72755fc99c0c" />**
 
 **Special purposes (intelligent items):**
 - **Intelligent items can have a special purpose**: turns special purposes on.

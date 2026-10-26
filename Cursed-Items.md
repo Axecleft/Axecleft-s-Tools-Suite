@@ -4,6 +4,8 @@ Any random magic item can be cursed, following the SRD's *Cursed Items* rules: a
 
 ## How often
 
+> **<img width="596" height="329" alt="image" src="https://github.com/user-attachments/assets/2321ad54-5e97-4994-8818-7cabc2541c08" />**
+
 Set in [Generation Settings](Generation-Settings#cursed-items). The SRD gives no frequency, so you choose:
 
 - **Flat rate**: one chance for every magic item (default **1%**).
@@ -38,9 +40,13 @@ You can add your own curses and switch SRD ones off: see [Custom curses](#custom
 - The item sheet shows the curse in a red **GM only** box at the top, with a link to its buff.
 - The chat card summary says **CURSED: …**. Treasure chat cards are whispered to the GM.
 - The identified description includes a **Curse:** link to the curse's buff, so you can drag it onto a character. Players who identify the item will see that link too.
-- A cursed item that sheds light glows with an **eerie light**: sickly green, bruised violet, blood red, murky smoke, witch-light or corpse-light fog.
+- A cursed item that sheds light keeps **its own light** while it's unidentified or its curse is dormant, so the light doesn't give the curse away. Once **Curse Active** is ticked, it glows with an **eerie light** instead: sickly green, bruised violet, a slow blood-red throb, murky fog, pale witch-light or corpse-light fog. Unticking **Curse Active** brings its own light back.
 
-> **[Screenshot: a cursed item sheet with the GM only box]**
+> **<img width="563" height="661" alt="image" src="https://github.com/user-attachments/assets/d9746392-4e5e-4ab7-be94-dfb62e81d6ff" />**
+
+Shed Light is different when Identified or unidentified
+
+> **<img width="344" height="748" alt="Cursed weapon" src="https://github.com/user-attachments/assets/6b0c7bfe-5772-4172-9112-fdc7047e7f38" />**
 
 ## D35E's curse tick boxes
 
