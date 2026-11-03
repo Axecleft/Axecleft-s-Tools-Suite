@@ -12,7 +12,7 @@ Facultatif : **Babele** et un module de traduction (par exemple la traduction fr
 
 ## Installation
 
-1. Dans l'onglet **Modules complémentaires** de Foundry, choisissez **Installer un module** et collez l'URL du manifeste du module (depuis sa page de version sur GitHub), ou cherchez-le par son nom.
+1. Dans l'onglet **Modules complémentaires** de Foundry, choisissez **Installer un module** et collez l'URL du manifeste du module (tous sont sur [Liens d'installation](fr-Liens-d'installation)), ou cherchez-le par son nom.
 2. Installez les modules voulus. Ils ne dépendent pas les uns des autres, mais se recommandent mutuellement, car chacun enrichit les fenêtres partagées.
 3. Dans votre monde, ouvrez **Paramètres du jeu → Gérer les modules**, cochez les modules et enregistrez. Foundry recharge le monde.
 

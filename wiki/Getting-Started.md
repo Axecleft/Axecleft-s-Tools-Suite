@@ -12,7 +12,7 @@ Optional: **Babele** and a translation module (for example the French D35E trans
 
 ## Installing
 
-1. In Foundry's **Add-on Modules** tab, choose **Install Module** and paste the module's manifest URL (from its GitHub release page), or search for it by name.
+1. In Foundry's **Add-on Modules** tab, choose **Install Module** and paste the module's manifest URL (all of them are on [Install links](Install-Links)), or search for it by name.
 2. Install the modules you want. They don't depend on each other, but they recommend each other because each one adds to the shared windows.
 3. In your world, open **Game Settings → Manage Modules**, tick the modules and save. Foundry reloads the world.
 

@@ -2,6 +2,7 @@
 
 **Pour commencer**
 - [Premiers pas](fr-Premiers-pas)
+- [Liens d'installation](fr-Liens-d'installation)
 
 **Générateur de trésors**
 - [La fenêtre](fr-Générateur-de-trésors)

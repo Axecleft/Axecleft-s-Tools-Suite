@@ -2,6 +2,7 @@
 
 **Start here**
 - [Getting Started](Getting-Started)
+- [Install links](Install-Links)
 
 **Treasure Generator**
 - [The window](Treasure-Generator)

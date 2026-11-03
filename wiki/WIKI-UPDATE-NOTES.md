@@ -35,3 +35,7 @@ New sections have lines like `> 📷 **Screenshot:** …` (French: `Capture d'é
 - Hoards = "Trésors" in fr.json, which clashes with "trésor" (treasure); the pages say **Trésors** for the tab, "Éditeur de trésors" for the editor, and "trésor amassé" where the two must be told apart. A distinct word (e.g. "Magots") might be clearer in fr.json.
 - Special purpose: fr.json has **Le vôtre…** / **Votre but**, the pages say "dessein spécial" around them.
 - Labels with no French string yet (shown with the English after them): *Printed sheet layout*, *Printed NPC / monster layout*, *Update notice on startup*. The nine example crystals stay in English.
+
+## Install links (added 3 Nov, morning)
+- **Install-Links** / **fr-Liens-d'installation**: every module's manifest link for Foundry 13–14 and Foundry 11, each in a fold-out with GitHub's copy button. Linked from the sidebar and Getting Started.
+- **Install link picker** (`install-picker/index.html`): a page with drop-downs and a Copy button. To publish it, put it in the Tool Suite repo as `docs/index.html`, then in the repo's **Settings → Pages** choose **Deploy from a branch**, branch `main`, folder `/docs`. It appears at https://axecleft.github.io/Axecleft-s-Tools-Suite/ (the wiki page already links there). Links like `?module=Armory&foundry=11&lang=fr` open it on a module.
