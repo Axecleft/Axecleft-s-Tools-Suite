@@ -61,3 +61,9 @@ SRD sample traps have fixed stats, so they can't be customized: they're generate
 
 - Place the trap actor's token on a scene, or let players craft it as a [trap kit](Trap-Kits). Traps in your world can be crafted once the GM shows them to a player (Observer permission).
 - Make your own poisons and diseases with the [Poison & Disease Creator](Poison-and-Disease-Creator).
+- Trap a treasure chest: pick the trap on the [Hoards](Hoard-Editor#on-the-scene) tab, and it's placed hidden on the chest's square.
+- Print a trap as a DMG-style trap block with [Printable Sheets](Printable-Sheets#traps).
+
+## Tours
+
+The Random Trap Generator and its **Customize** window each have a guided tour: the window's **⋮** menu → **Tour of this window** (on Foundry 11, the **Tour** button in the title bar), or **Configure Settings → Tour Management**.

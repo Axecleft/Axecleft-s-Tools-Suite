@@ -68,11 +68,34 @@ With **Yes, choose the features**, more choices appear:
 | **Alignment** | Any alignment, or **Random (suits holy, unholy, axiomatic, anarchic)**. |
 | **Mind** | Its Intelligence, Wisdom and Charisma. The mind sets how many lesser and greater powers it has. |
 | **Lesser power 1, 2…** / **Greater power 1, 2…** | Each power, or Random. |
-| **Special purpose** | **By Generation settings**, **None**, **Random**, or a chosen purpose. |
+| **Special purpose** | **By Generation settings**, **None**, **Random**, a chosen purpose, or **Your own…**. |
+| **Your purpose** | With **Your own…**: the purpose in your own words. They also replace *A purpose of the GM's choice* when a roll lands on that result. |
 | **Dedicated power** | With a special purpose, its dedicated power. |
 
-Prices follow the SRD and are added to the item's price.
+Prices follow the SRD and are added to the item's price. A random purpose by Generation settings takes the place of a power (see [Generation Settings](Generation-Settings#light-intelligence-and-inscriptions)); a purpose you choose here comes on top of the item's powers.
 
 ## Making it
 
 Set [Put items in](Treasure-Generator#put-items-in) and press **Generate**. The chat card lists each item with its price and, for the GM, anything special: light, intelligence, curse.
+
+A guided tour of the Forge tab is in the window's **⋮** menu (**Tour of this tab**). See [Tours](Treasure-Generator#tours).
+
+<a id="crystals-tab"></a>
+## Crystals tab (socket crystals)
+
+**Where:** Treasure Generator → **Crystals** tab. Only while **Configure Settings → Axecleft's Armory → Socket crystals** is on (off by default; Foundry reloads when you change it).
+
+Make socket crystals, random or chosen. The list holds the Armory's nine example crystals (three each for weapons, armor and shields, one of each rank: Cinder Shard, Stormglass Prism, Huntsman's Eye; Hushstone, Hearthfire Garnet, Ironheart Opal; Warden's Pebble, Mirror Mica, Aegis Beryl), and the crystals in your item compendiums, such as augment crystals in Axecleft's Shared Data. Your compendiums are read each time the window opens. A crystal from a compendium is a copy of the compendium item.
+
+Set [Put items in](Treasure-Generator#put-items-in) and press **Generate**. The tab has its own tour.
+
+### Using a crystal
+
+While the setting is on, a weapon, armor or shield a character carries has a **Socket crystal** button on its sheet. Pick a crystal from the character's inventory and it's set into the item (one crystal per item). A **Crystal** button on the item then takes it out and puts it back in the inventory. A crystal's own sheet has a **Set into…** button.
+
+- The crystal adds its bonuses, energy resistance, damage reduction and extra weapon damage to the item the way D35E applies the item's other enhancements, and its notes to the item's notes. Taking it out removes exactly those. The item's price and name don't change.
+- It must fit: the right kind of item; masterwork or magic for a least crystal, an enhancement bonus of +1 for a lesser one and +3 for a greater one (special abilities don't count); and any melee-only or armor-category limit the crystal has.
+- Only items on a character are changed; compendium and sidebar items never are.
+- Switching the setting off hides the buttons and the Crystals tab. Items that already hold a crystal keep it, and still show the button to take it out.
+
+Characters can craft socket crystals too: see [Crafting Tabs](Crafting-Tabs#socket-crystals).

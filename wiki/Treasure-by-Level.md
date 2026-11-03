@@ -36,6 +36,8 @@ A small table shows which module makes each part of the treasure:
 
 A **✔** means that part is covered. **✘ needs [module]; listed in chat** means the module isn't active: that part is rolled and named in the chat card, but no item is made.
 
+Where a module makes a kind of item, a share of it can come from your own Item compendiums instead: see **Your item compendiums** in [Generation Settings](Generation-Settings#your-item-compendiums) (0% by default, the SRD tables only).
+
 <a id="coins"></a>
 ## Coins
 
@@ -59,3 +61,5 @@ At the bottom of the tab, the **Generation settings** section controls the extra
 - To loot a room, select the monsters' tokens, set **Put items in** to **Selected tokens**, and generate. Each creature gets its own pile.
 - To see what a level gives before committing, use **Chat card only** and create just the items you want from the card.
 - For automatic loot on every NPC by its CR, see [Token Loot](Token-Loot).
+- To roll this treasure into a chest the players can loot, or to fill one up to the SRD value for an encounter, use the [Hoards](Hoard-Editor) tab. Its rolls use this tab's settings.
+- A guided tour of this tab is in the window's **⋮** menu (**Tour of this tab**). See [Tours](Treasure-Generator#tours).

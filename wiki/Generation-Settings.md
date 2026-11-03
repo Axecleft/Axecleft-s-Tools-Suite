@@ -35,12 +35,12 @@ Each cell has a tick box (on or off) and a percentage. These are the defaults:
 
 > **<img width="606" height="713" alt="image" src="https://github.com/user-attachments/assets/44fef60c-45f1-4b7e-a80d-72755fc99c0c" />**
 
-**Special purposes (intelligent items):**
+**Special purposes (intelligent items):** the SRD gives an intelligent item a special purpose and a dedicated power *instead of* one of its powers.
 - **Intelligent items can have a special purpose**: turns special purposes on.
-- **always with greater powers**: the most capable items, those with greater powers, always have one.
-- **plus … % of the others**: the chance for every other intelligent item.
+- **% of intelligent items with greater powers** (SRD, default 100%): these trade one greater power for the purpose and its dedicated power.
+- **% of those with only lesser powers** (house rule, default 0%): these trade one lesser power for it.
 
-The SRD doesn't say how often special purposes occur; this is Axecleft's default.
+A purpose chosen by hand in the [Forge](Forge#choosing-an-intelligent-items-features) or the [Curios Workshop](Curios-Workshop#specific-and-random-items) is an extra, on top of the item's powers.
 
 **Light options:**
 - **Light color and animation follow the item's abilities**: a flaming sword flickers orange, a holy one glows gold, a necromantic item drifts in sickly green. Off: neutral white light.
@@ -54,6 +54,19 @@ The SRD doesn't say how often special purposes occur; this is Axecleft's default
 - Large arms cost twice as much and weigh twice as much.
 
 Untick for all Medium.
+
+<a id="your-item-compendiums"></a>
+## Your item compendiums
+
+How much treasure and merchant stock comes from your own Item compendiums (see [Item Sources](Merchant-Generator#item-sources-tab)) where an Axecleft module also supplies that kind of item:
+
+- **% of treasure** (default 0, the SRD tables only): [Treasure by Level](Treasure-by-Level) and [Token Loot](Token-Loot) take this share of their magic arms, potions, scrolls and other items from your Item compendiums instead of the modules' SRD tables. The item is one of the same kind and grade; when there is none, the SRD tables are used.
+- **% of merchant stock** (default 50): merchants draw this share of their stock from your Item compendiums.
+- Unticked: nothing comes from your compendiums where a module supplies the kind.
+
+Kinds no module covers still come from your compendiums.
+
+**Treasure weight tags:** give an item in your compendiums the D35E item tag `Treasure weight: 3` and it comes up three times as often as the other items it is rolled with. `Treasure weight: 0` keeps it out of random treasure and merchant stock; it can still be chosen by hand in the Forge and Crafting. Items without the tag weigh 1. It isn't a [Shop tag](Shop-Tags), so the Shop Tags tool leaves it alone.
 
 <a id="poisons"></a>
 ## Poisons
@@ -71,3 +84,7 @@ Turns random curses on and sets how often they happen. See [Cursed Items](Cursed
 - **Apply simple effects (penalties, reversed bonuses)**: turn a reversed +2 into a –2, strip a delusion item's magic, and so on.
 - **Merchant stock can be cursed**: off by default, so shops sell clean items.
 - **Create the curse buffs compendium**: builds the world compendium "Axecleft's Curses" (see [Cursed Items](Cursed-Items#the-curse-buffs-compendiums)).
+
+## Tour
+
+The Generation settings have a guided tour of their own, in **Configure Settings → Tour Management**. See [Tours](Treasure-Generator#tours).

@@ -12,9 +12,11 @@ Each module adds its own tabs, so you only see the tabs for the modules you have
 |---|---|---|
 | **Gems**, **Art Objects**, **Jewelry** | Gemstones | Gems, art objects and jewelry, chosen or rolled. See [Gems, Art and Jewelry](Gems-Art-and-Jewelry). |
 | **Forge** | Armory | Weapons, armor, shields and ammunition made by hand. See [Forge](Forge). |
+| **Crystals** | Armory | Socket crystals, random or chosen. Only while the Armory's **Socket crystals** setting is on. See [Forge](Forge#crystals-tab). |
 | **Curios** | Curios | Potions, scrolls, wands, rings, rods, staffs, wondrous and psionic items made by hand. See [Curios Workshop](Curios-Workshop). |
 | **Treasure by Level** | built in | The SRD Treasure table for an encounter level. See [Treasure by Level](Treasure-by-Level). |
 | **Token Loot** | built in | Each NPC token's own treasure by its CR. See [Token Loot](Token-Loot). |
+| **Hoards** | Hoard Editor | Treasure hoards: lootable chests to fill, trap, place on a scene and share out among the party. Foundry 13–14. See [Hoard Editor](Hoard-Editor). |
 | **Lists** | built in | Your custom gems, materials, curses, price corrections and more. See [Treasure Lists](Treasure-Lists). |
 
 Some modules also add buttons above the tabs.
@@ -30,6 +32,8 @@ Every tab that makes treasure ends with the **Put items in** box, which decides 
 | **Items sidebar ("Generated Treasure" folder)** | Items are created in the Items sidebar, in a folder named Generated Treasure. |
 | **Chat card only (create items later)** | Nothing is created yet. The chat card lists the results, with a **Create Item** button for each. |
 
+To send every tab's treasure into a hoard, press **Send Other Tabs Here** on the [Hoards](Hoard-Editor#target-value) tab: it sets **A chosen actor or token** to that hoard.
+
 **Appraisal:**
 - Items given to an actor or token go straight into its inventory with their true value already rolled, ready for a loot sheet. Coins go into its purse. An unlinked token keeps its loot on that one creature.
 - Items sent to the Items sidebar or the chat card start **unappraised**. Their true value is rolled when they're dropped onto a character.
@@ -41,6 +45,17 @@ Every tab that makes treasure ends with the **Put items in** box, which decides 
 Press **Generate**. Results are posted as a chat card **whispered to the GM**. It shows each item with a short summary (price, quality, curse and so on) and links to the items that were created. With **Chat card only**, each line has a **Create Item** button; only the GM sees it.
 
 If a part of the treasure needs a module you don't have, for example magic weapons without the Armory, the chat card lists it for you to handle by hand.
+
+<a id="tours"></a>
+## Tours
+
+Guided tours walk through a tab one part at a time, pointing out what each control does. Every tab has one: Gems, Art Objects, Jewelry, Forge, Crystals, Curios, Treasure by Level, Generation settings, Token Loot, Lists and Hoards. Each treasure tab's tour ends with **Put items in** and **Generate**.
+
+- **Tour of this tab**: in the window's **⋮** menu (top right). It starts the tour of the tab that's open.
+- **Configure Settings → Tour Management**: Foundry's list of every tour.
+- **Foundry 11**: a **Tour** button in the window's title bar instead of the ⋮ menu.
+
+The welcome window that opens when Foundry starts also has **Take a tour**, which opens Tour Management.
 
 ## Saving your choices
 

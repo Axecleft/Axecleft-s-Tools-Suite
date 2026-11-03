@@ -17,7 +17,7 @@ Create a new poison or disease. Each one is made as two D35E items:
 | **Name** | For example *Swamp Adder Venom*. |
 | **Delivery** | **Contact**, **Ingested**, **Inhaled** or **Injury**. |
 | **Saving throw** | **Fortitude**, **Reflex** or **Will**, and the save DC. |
-| **Price (gp)** | The consumable's price. |
+| **Price (gp)** | The consumable's price. For a disease, it's also written into the description as a *Cost: … gp* line, so a trap with that disease adds it to its price (see [Crafting Tabs](Crafting-Tabs#trap-kits)). |
 | **Notes** | An optional description. |
 | **Also add to Items** | Copies both items into the **Custom Poisons & Diseases** Items folder too. |
 
@@ -38,7 +38,7 @@ Create a new poison or disease. Each one is made as two D35E items:
 
 ### What you can type in the damage boxes
 
-Write the effects in English, whatever the world's language.
+Write the effects in English, French, Spanish or Portuguese (*1d6 For*, *2d12 pv*, *1 Con diminution*, *inconscience 2d4 heures*, *paralysie 2d6 minutes*). The examples in the form are in your world's language.
 
 | Effect | Example |
 |---|---|
@@ -80,3 +80,7 @@ Your custom poisons and diseases appear in the creator's **Template** list, so y
 
 - A poison needs an initial or a secondary effect. A disease needs its damage and its incubation period. The save DC must be above 0.
 - Poison consumables from the module's compendiums are stocked by merchants (see [Merchant Generator](Merchant-Generator#item-sources-tab)).
+
+## Tour
+
+The Poison & Disease Creator has a guided tour: the window's **⋮** menu → **Tour of this window** (on Foundry 11, the **Tour** button in the title bar), or **Configure Settings → Tour Management**.

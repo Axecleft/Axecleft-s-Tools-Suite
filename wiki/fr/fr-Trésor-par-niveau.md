@@ -36,6 +36,8 @@ Un petit tableau montre quel module crée chaque partie du trésor :
 
 Un **✔** signifie que la partie est couverte. **✘ nécessite [module] ; indiqué dans le chat** signifie que le module n'est pas actif : cette partie est tirée et nommée dans la carte de chat, mais aucun objet n'est créé.
 
+Quand un module crée un genre d'objet, une part de ces objets peut venir de vos propres compendiums d'objets : voir **Vos compendiums d'objets** dans les [Réglages de génération](fr-Réglages-de-génération#your-item-compendiums) (0 % par défaut, seulement les tables du SRD).
+
 ## Pièces
 
 > **<img width="608" height="391" alt="image" src="https://github.com/user-attachments/assets/01ccc446-ccc9-4859-99c8-b74e38b95825" />**
@@ -58,3 +60,5 @@ En bas de l'onglet, la section **Réglages de génération** contrôle les ajout
 - Pour garnir une salle, sélectionnez les tokens des monstres, réglez **Placer les objets dans** sur **Tokens sélectionnés**, et générez. Chaque créature reçoit son propre tas.
 - Pour voir ce que donne un niveau avant de vous engager, utilisez **Carte de chat seulement** et créez depuis la carte uniquement les objets voulus.
 - Pour un butin automatique sur chaque PNJ selon son FP, voir [Butin Token](fr-Butin-Token).
+- Pour tirer ce trésor dans un coffre que les joueurs peuvent piller, ou en remplir un jusqu'à la valeur du SRD pour une rencontre, utilisez l'onglet [Trésors](fr-Éditeur-de-trésors). Ses tirages utilisent les réglages de cet onglet.
+- Une visite guidée de cet onglet se trouve dans le menu **⋮** de la fenêtre (**Visite de cet onglet**). Voir [Visites guidées](fr-Générateur-de-trésors#tours).

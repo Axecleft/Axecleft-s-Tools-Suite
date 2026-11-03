@@ -68,11 +68,35 @@ Avec **Oui, choisir les caractéristiques**, d'autres choix apparaissent :
 | **Alignement** | N'importe quel alignement, ou **Aléatoire (convient à sainte, impie, axiomatique, anarchique)**. |
 | **Esprit** | Son Intelligence, sa Sagesse et son Charisme. L'esprit fixe combien de pouvoirs mineurs et majeurs il a. |
 | **Pouvoir mineur 1, 2…** / **Pouvoir majeur 1, 2…** | Chaque pouvoir, ou Aléatoire. |
-| **Dessein spécial** | **Selon les réglages de génération**, **Aucun**, **Aléatoire**, ou un dessein choisi. |
+| **Dessein spécial** | **Selon les réglages de génération**, **Aucun**, **Aléatoire**, un dessein choisi, ou **Le vôtre…**. |
+| **Votre but** | Avec **Le vôtre…** : le dessein, dans vos propres mots. Ils remplacent aussi *Un but au choix du MJ* quand un tirage tombe sur ce résultat. |
 | **Pouvoir dédié** | Avec un dessein spécial, son pouvoir dédié. |
 
-Les prix suivent le SRD et s'ajoutent au prix de l'objet.
+Les prix suivent le SRD et s'ajoutent au prix de l'objet. Un dessein aléatoire selon les réglages de génération prend la place d'un pouvoir (voir [Réglages de génération](fr-Réglages-de-génération#lumière-intelligence-et-inscriptions)) ; un dessein choisi ici s'ajoute aux pouvoirs de l'objet.
 
 ## Le créer
 
 Réglez [Placer les objets dans](fr-Générateur-de-trésors#placer-les-objets-dans) et appuyez sur **Générer**. La carte de chat liste chaque objet avec son prix et, pour le MJ, tout ce qu'il a de particulier : lumière, intelligence, malédiction.
+
+Une visite guidée de l'onglet Forge se trouve dans le menu **⋮** de la fenêtre (**Visite de cet onglet**). Voir [Visites guidées](fr-Générateur-de-trésors#tours).
+
+<a id="crystals-tab"></a>
+## Onglet Cristaux (cristaux de sertissage)
+
+**Où :** Générateur de trésors → onglet **Cristaux**. Seulement tant que **Configurer les paramètres → Armurerie d'Axecleft → Cristaux de sertissage** est activé (désactivé par défaut ; Foundry recharge quand vous le changez).
+
+Créez des cristaux de sertissage, tirés ou choisis. La liste contient les neuf cristaux d'exemple de l'Armurerie (trois pour les armes, trois pour les armures et trois pour les boucliers, un de chaque rang : Cinder Shard, Stormglass Prism, Huntsman's Eye ; Hushstone, Hearthfire Garnet, Ironheart Opal ; Warden's Pebble, Mirror Mica, Aegis Beryl), et les cristaux de vos compendiums d'objets, comme les cristaux d'augmentation d'Axecleft's Shared Data. Vos compendiums sont lus chaque fois que la fenêtre s'ouvre. Un cristal pris dans un compendium est une copie de l'objet du compendium.
+
+Réglez [Placer les objets dans](fr-Générateur-de-trésors#placer-les-objets-dans) et appuyez sur **Générer**. L'onglet a sa propre visite guidée.
+
+<a id="using-a-crystal"></a>
+### Utiliser un cristal
+
+Tant que le paramètre est activé, une arme, une armure ou un bouclier que porte un personnage a un bouton **Cristal de sertissage** sur sa fiche. Choisissez un cristal dans l'inventaire du personnage et il est serti dans l'objet (un cristal par objet). Un bouton **Cristal** sur l'objet permet ensuite de le retirer et de le remettre dans l'inventaire. La fiche du cristal lui-même a un bouton **Sertir dans…**.
+
+- Le cristal ajoute ses bonus, sa résistance aux énergies, sa réduction des dégâts et ses dégâts d'arme supplémentaires à l'objet, de la même façon que D35E applique les autres altérations de l'objet, et ses notes aux notes de l'objet. Le retirer enlève exactement ces ajouts. Le prix et le nom de l'objet ne changent pas.
+- Il doit convenir : le bon genre d'objet ; un objet de maître ou magique pour un cristal inférieur, un bonus d'altération de +1 pour un cristal mineur et de +3 pour un cristal supérieur (les propriétés spéciales ne comptent pas) ; et toute limite du cristal au corps à corps seulement ou à une catégorie d'armure.
+- Seuls les objets portés par un personnage sont modifiés ; jamais ceux des compendiums ni de la barre latérale.
+- Désactiver le paramètre masque les boutons et l'onglet Cristaux. Les objets qui contiennent déjà un cristal le gardent, et montrent toujours le bouton pour le retirer.
+
+Les personnages peuvent aussi fabriquer des cristaux de sertissage : voir [Onglets d'artisanat](fr-Onglets-artisanat#socket-crystals).

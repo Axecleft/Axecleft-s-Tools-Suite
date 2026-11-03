@@ -26,7 +26,7 @@ Select NPC tokens on the scene, then press **Refresh**. The table lists each tok
 
 Buttons:
 - **Roll Loot for Selected Tokens**: rolls each selected token's loot.
-- **Clear Loot**: removes only what the Treasure Generator put on the selected tokens (its marked items and the coins it added). Anything you gave the token yourself stays.
+- **Clear Loot**: removes only what the Treasure Generator put on the selected tokens (its marked items and the coins it added). Anything you gave the token yourself stays. Loot already gathered into a hoard isn't taken back.
 - **Refresh**: re-reads the selection.
 
 ## Automatic loot
@@ -48,3 +48,9 @@ Automatic loot only applies to unlinked NPC tokens. It never applies to traps, c
 
 - **NPCs with class levels** carry NPC gear in the SRD instead of treasure. Set their Treasure to *None* if you equip them by hand.
 - Everything else follows the [Treasure by Level](Treasure-by-Level) tab: how coins are paid, and the [Generation Settings](Generation-Settings) for light, poisons, curses and the rest.
+
+## After the fight
+
+To sweep the fallen creatures' loot into a chest and share it out among the party, use **Gather loot** on the [Hoards](Hoard-Editor#gather-loot) tab. It takes the token loot (and the coins it rolled) from the selected tokens, or from every creature on the scene that is defeated, dead or at 0 hp.
+
+A guided tour of this tab is in the window's **⋮** menu (**Tour of this tab**). See [Tours](Treasure-Generator#tours).

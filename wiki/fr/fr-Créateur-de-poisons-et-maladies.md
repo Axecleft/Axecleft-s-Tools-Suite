@@ -17,7 +17,7 @@ Créez un nouveau poison ou une nouvelle maladie. Chacun est créé sous forme d
 | **Nom** | Par exemple *Venin de vipère des marais*. |
 | **Mode de transmission** | **Contact**, **Ingestion**, **Inhalation** ou **Blessure**. |
 | **Jet de sauvegarde** | **Vigueur**, **Réflexes** ou **Volonté**, et le DD de sauvegarde. |
-| **Prix (po)** | Le prix du consommable. |
+| **Prix (po)** | Le prix du consommable. Pour une maladie, il est aussi écrit dans la description sous forme de ligne *Coût : … po*, pour qu'un piège contenant cette maladie l'ajoute à son prix (voir [Onglets d'artisanat](fr-Onglets-artisanat#kits-de-piège)). |
 | **Notes** | Une description facultative. |
 | **Ajouter aussi aux Objets** | Copie aussi les deux objets dans le dossier d'Objets **Custom Poisons & Diseases**. |
 
@@ -38,7 +38,7 @@ Créez un nouveau poison ou une nouvelle maladie. Chacun est créé sous forme d
 
 ### Ce qu'on peut taper dans les cases de dégâts
 
-Écrivez les effets en anglais, quelle que soit la langue du monde.
+Écrivez les effets en anglais, en français, en espagnol ou en portugais (*1d6 For*, *2d12 pv*, *1 Con diminution*, *inconscience 2d4 heures*, *paralysie 2d6 minutes*). Les exemples du formulaire sont dans la langue de votre monde.
 
 | Effet | Exemple |
 |---|---|
@@ -80,3 +80,7 @@ Vos poisons et maladies personnalisés apparaissent dans la liste **Modèle** du
 
 - Un poison demande un effet initial ou secondaire. Une maladie demande ses dégâts et sa période d'incubation. Le DD de sauvegarde doit être supérieur à 0.
 - Les consommables de poison des compendiums du module sont stockés par les marchands (voir [Générateur de marchands](fr-Générateur-de-marchands#onglet-sources-dobjets)).
+
+## Visite guidée
+
+Le Créateur de poisons et maladies a une visite guidée : le menu **⋮** de la fenêtre → **Visite de cette fenêtre** (sous Foundry 11, le bouton **Visite** de la barre de titre), ou **Configurer les paramètres → Gestion des visites guidées**.

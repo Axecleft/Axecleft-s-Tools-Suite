@@ -82,6 +82,7 @@ For a spellbook, choosing a class in the list also sets **Spellbook class**, so 
 | **Category** and grade | For **Random item**: the category (potion, ring, rod, scroll, staff, wand, wondrous item) and **Minor**, **Medium** or **Major**. |
 | **Sheds light** | **By Generation settings (random)**, **No** or **Yes**. Rings, rods, staffs and wondrous items only. The look follows the item's school of magic. |
 | **Intelligent** | **By Generation settings (random)**, **No**, or **Yes (roll its mind and powers)**. Needs D35E 3.1 or later, so it's hidden on Foundry 11. |
+| **Special purpose** | With Intelligent **Yes**: **By Generation settings**, **None**, **Random**, one of D35E's purposes, or **Your own…** with a **Your purpose** box for your own words. Your words also replace *A purpose of the GM's choice* when a roll lands on that result. A purpose chosen here comes on top of the item's powers. |
 | **Cursed** | **No**, **Random curse (SRD tables)**, a curse type, or one of your custom curses. See [Cursed Items](Cursed-Items). |
 
 ## How many
@@ -92,9 +93,15 @@ For a spellbook, choosing a class in the list also sets **Spellbook class**, so 
 
 > **<img width="603" height="400" alt="image" src="https://github.com/user-attachments/assets/8fd72efc-470a-44cd-9dc7-48dbd3a5aff1" />**
 
+These boxes only show when they apply: the potion level for potions and psionic tattoos, the wand level for wands and dorjes.
+
 | Control | What it does |
 |---|---|
 | **Highest potion level** | SRD: 3rd. Raise it to let the GM make potions and tattoos of higher-level spells and powers here. Players' crafting always stays at 3rd. |
 | **Highest wand level** | SRD: 4th. Raise it for wands and dorjes in the same way. Players' crafting always stays at 4th. |
 
 Set [Put items in](Treasure-Generator#put-items-in) and press **Generate**.
+
+## Tour
+
+A guided tour of the Curios tab is in the window's **⋮** menu (**Tour of this tab**). It switches **Make** to show the boxes for potions, scrolls, spellbooks, and specific and random items, and puts your choice back at the end. See [Tours](Treasure-Generator#tours).

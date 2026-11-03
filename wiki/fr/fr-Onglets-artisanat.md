@@ -9,13 +9,17 @@ Chaque module ajoute ses propres onglets. Vous ne voyez que ceux des modules act
 | [Armes et armures magiques](#armes-et-armures-magiques) | Armurerie | Création d'armes et armures magiques |
 | [Armes et armures magiques spécifiques](#armes-et-armures-magiques-spécifiques) | Armurerie | Création d'armes et armures magiques |
 | [Armes et armures (Artisanat)](#armes-et-armures-artisanat) | Armurerie | Artisanat (fabrication d'armes, fabrication d'armures, fabrication d'arcs) |
+| [Cristaux de sertissage](#socket-crystals) | Armurerie (tant que **Cristaux de sertissage** est activé) | Création d'armes et armures magiques |
 | [Parchemins, potions, baguettes](#parchemins-potions-baguettes) | Curiosités | Écriture de parchemins, Préparation de potions, Création de baguettes magiques (et les dons psioniques) |
 | [Anneaux, sceptres, bâtons, merveilleux](#anneaux-sceptres-bâtons-merveilleux) | Curiosités | Création d'anneaux magiques, Création de sceptres magiques, Création de bâtons magiques, Création d'objets merveilleux |
 | [Objets spéciaux](#objets-spéciaux) | Curiosités | Artisanat (alchimie) |
 | [Cristaux, couronnes psioniques](#cristaux-couronnes-psioniques) | Curiosités | Création de cristaux condensateurs, Création de couronnes psioniques |
 | [Kits de piège](#kits-de-piège) | Pièges | Artisanat (fabrication de pièges) |
+| [Pièges magiques](#magic-traps) | Pièges | Lancer le sort (pièges à sort), Création d'objets merveilleux (pièges à dispositif magique) |
 
 > **[Capture : les onglets de la fenêtre d'Artisanat]**
+
+Chaque onglet a une visite guidée, pour les joueurs aussi : le menu **⋮** de la fenêtre d'Artisanat → **Visite de cet onglet** (sous Foundry 11, le bouton **Visite** de la barre de titre). Voir [Artisanat](fr-Artisanat#visites-guidées).
 
 ---
 
@@ -84,6 +88,15 @@ Armes, armures, boucliers et munitions ordinaires fabriqués avec Artisanat (SRD
 - Les matières premières coûtent ⅓ du prix. Le DD vient de la table d'Artisanat du SRD.
 - Un objet de maître a une composante de maître séparée (DD 20), avec son propre test.
 - Un test raté de 5 ou plus gâche la moitié des matières premières de cette partie.
+
+<a id="socket-crystals"></a>
+## Cristaux de sertissage
+
+Seulement tant que **Configurer les paramètres → Armurerie d'Axecleft → Cristaux de sertissage** est activé. Fabriquez un cristal de sertissage avec Création d'armes et armures magiques : la moitié de son prix en po et 1/25 en PX.
+
+- La liste contient les neuf cristaux d'exemple de l'Armurerie et les cristaux de vos compendiums d'objets (par exemple les cristaux d'augmentation d'Axecleft's Shared Data), relus chaque fois que la fenêtre s'ouvre.
+- Un cristal pris dans un compendium utilise la ligne de fabrication de sa description : ses sorts, ses autres conditions préalables, son niveau de lanceur de sort et le coût du SRD. Voir [Comment les conditions sont trouvées](fr-Artisanat#comment-les-conditions-sont-trouvées).
+- Pour sertir un cristal dans une arme, une armure ou un bouclier, voir [Forge : utiliser un cristal](fr-Forge#using-a-crystal).
 
 ---
 
@@ -156,8 +169,24 @@ Artisanat (fabrication de pièges) selon le SRD : pièges mécaniques seulement.
 |---|---|
 | **Piège** | Un acteur piège mécanique, listé « FP {fp} : {nom} ». Groupés par source : **Ce monde** (les acteurs pièges de la barre latérale des Acteurs que vous voyez, sauf les pièges posés) et chaque compendium indiqué dans **Kits de piège : compendiums pour l'artisanat**. |
 
-- Les matières premières coûtent ⅓ du prix du piège. Les poisons qu'il contient sont achetés au prix plein (×20 avec un réarmement automatique).
+- Les matières premières coûtent ⅓ du prix du piège. Les poisons et les maladies qu'il contient sont achetés au prix plein (×20 avec un réarmement automatique). Une maladie a un prix quand sa description a une ligne *Coût : 1 000 po*, comme celle qu'écrit le [Créateur de poisons et maladies](fr-Créateur-de-poisons-et-maladies) à partir de sa case **Prix (po)**.
+- Avec le paramètre **Kits de piège : Artisanat (fabrication de pièges) requis** activé (par défaut), l'artisan doit avoir au moins 1 degré de maîtrise en Artisanat (fabrication de pièges). Désactivé, tout le monde le peut, comme le permet le SRD. Voir [Kits de piège](fr-Kits-de-piège#paramètres).
 - Le progrès de chaque semaine est un test : test × DD en pièces d'argent (SRD), ou dans la pièce choisie par le paramètre **Kits de piège : progression de la fabrication** (pièces de cuivre, d'or ou de platine). Voir [Kits de piège](fr-Kits-de-piège#paramètres).
 - Le piège a besoin d'un prix : ajoutez « Market Price - 1,000 gp » (son prix du SRD) à ses notes s'il n'en a pas.
-- Les pièges magiques ne peuvent pas être fabriqués ; ils viennent des sorts.
+- Les pièges magiques ne sont pas faits sous forme de kits de piège : utilisez l'onglet [Pièges magiques](#magic-traps).
 - Les pièges du [Générateur de pièges aléatoires](fr-Générateur-de-pièges-aléatoires) sont dans le monde du MJ. Pour qu'un joueur en fabrique un, le MJ le lui montre (permission Observateur).
+- **Comment un acteur piège est lu** : une section d'aide de cet onglet et de l'onglet Pièges magiques liste les lignes que le module lit dans un acteur piège (Market Price, déclencheurs, réarmements, poisons, maladies, effets de sorts), en anglais ou en français.
+
+<a id="magic-traps"></a>
+## Pièges magiques
+
+Des pièges magiques selon les coûts des pièges magiques du SRD. Le résultat est un objet **Piège magique**. Il n'y a pas de test de compétence.
+
+| Genre | Ce qu'il demande |
+|---|---|
+| **Piège à sort** (*piège à feu*, *glyphe de garde*…) | Lancé par son créateur, gratuitement, ou au prix du SRD pour engager un lanceur de sorts PNJ. |
+| **Piège à dispositif magique** | Création d'objets merveilleux et chaque sort qu'il contient, y compris celui de son déclencheur (*alarme*, *détection du Bien*, *vision lucide*). Il coûte ses po et PX du SRD (avec un réarmement automatique, 500 po et 40 PX × niveau de lanceur de sort × niveau du sort pour chaque sort) et prend 1 jour par tranche de 500 po. |
+
+- Par défaut, seul le lanceur de sorts qui l'a construit peut le poser, et seulement sur la scène où il a été construit. Avec le paramètre **Pièges magiques : transportables** activé, c'est un kit que tout lanceur de sorts peut transporter et poser. Voir [Kits de piège](fr-Kits-de-piège#paramètres).
+- Les pièges magiques ne sont jamais remis en kit.
+- La section d'aide **Comment un acteur piège est lu** se trouve aussi dans cet onglet.

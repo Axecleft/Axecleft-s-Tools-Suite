@@ -37,14 +37,23 @@ These gem lists and the size/quality choice are also used for gems rolled on the
 
 The preview shows the value range and how many combinations are possible. The suite has 221 objects, 120 materials and 30 embellishment gems.
 
+### Premade pieces
+
+Besides pieces built from an object, a material and a gem, random art can be a **premade piece**, generated exactly as written (its own name, description, picture, weight and value dice; no material, gem or quality). The suite has 200 by Leo, 100 art objects and 100 books, rolled at their own value (SRD rows 1 and 2) and listed on the Art Objects tab in their own **Premade by Leo** group. Add your own on the **Custom Premade Art** page of the [Treasure Lists](Treasure-Lists#custom-premade-art). How often random art is premade is a module setting (below).
+
 ### Names
 
 Names are built from the parts, for example *Fine, Silver Holy Symbol set with Topaz*, or *Wolf Fur Cloak*. The description says how it was made: "a holy symbol cast and worked in silver, set with topaz". In other languages the name follows that language's word order (see [Languages](Languages)).
 
 ## Adding your own
 
-Your own gems, art objects, materials and embellishment gems go on the [Treasure Lists](Treasure-Lists) pages: **Custom Gems**, **Custom Art & Jewelry**, **Custom Materials** and **Custom Embellishment Gems**.
+Your own gems, art objects, materials, embellishment gems and premade pieces go on the [Treasure Lists](Treasure-Lists) pages: **Custom Gems**, **Custom Art & Jewelry**, **Custom Materials**, **Custom Embellishment Gems** and **Custom Premade Art**.
 
+## Tours
+
+The Gems, Art Objects and Jewelry tabs each have a guided tour, in the window's **⋮** menu (**Tour of this tab**). See [Tours](Treasure-Generator#tours).
+
+<a id="module-settings"></a>
 ## Module settings
 
 In **Configure Settings → Axecleft's Gemstones**:

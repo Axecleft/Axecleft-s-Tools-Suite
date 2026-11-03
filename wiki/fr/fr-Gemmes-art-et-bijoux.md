@@ -37,14 +37,23 @@ Ces listes de gemmes et le choix taille/qualité servent aussi pour les gemmes t
 
 L'aperçu montre la fourchette de valeur et le nombre de combinaisons possibles. La suite compte 221 objets, 120 matériaux et 30 gemmes d'ornement.
 
+### Pièces toutes faites
+
+En plus des pièces construites à partir d'un objet, d'un matériau et d'une gemme, l'art aléatoire peut être une **pièce toute faite**, générée exactement telle qu'elle est écrite (ses propres nom, description, image, poids et dés de valeur ; sans matériau, gemme ni qualité). La suite en compte 200 de Leo, 100 objets d'art et 100 livres, tirées à leur propre valeur (lignes 1 et 2 du SRD) et listées dans l'onglet Objets d'art dans leur propre groupe **Pièces de Leo**. Ajoutez les vôtres sur la page **Art tout fait personnalisé** des [Listes de trésors](fr-Listes-de-trésors#custom-premade-art). La fréquence à laquelle l'art aléatoire est tout fait est un paramètre du module (ci-dessous).
+
 ### Noms
 
 Les noms sont construits à partir des éléments, par exemple *Symbole sacré beau en argent serti de topaze*, ou *Cape en fourrure de loup*. La description dit comment il a été fait : « un symbole sacré coulé et travaillé en argent, serti de topaze ». Chaque langue suit son propre ordre des mots (voir [Langues](fr-Langues)).
 
 ## Ajouter les vôtres
 
-Vos propres gemmes, objets d'art, matériaux et gemmes d'ornement vont dans les pages des [Listes de trésors](fr-Listes-de-trésors) : **Gemmes personnalisées**, **Art et bijoux personnalisés**, **Matériaux personnalisés** et **Gemmes d'ornement personnalisées**.
+Vos propres gemmes, objets d'art, matériaux, gemmes d'ornement et pièces toutes faites vont dans les pages des [Listes de trésors](fr-Listes-de-trésors) : **Gemmes personnalisées**, **Art et bijoux personnalisés**, **Matériaux personnalisés**, **Gemmes d'ornement personnalisées** et **Art tout fait personnalisé**.
 
+## Visites guidées
+
+Les onglets Gemmes, Objets d'art et Bijoux ont chacun une visite guidée, dans le menu **⋮** de la fenêtre (**Visite de cet onglet**). Voir [Visites guidées](fr-Générateur-de-trésors#tours).
+
+<a id="module-settings"></a>
 ## Paramètres du module
 
 Dans **Configurer les paramètres → Gemmes d'Axecleft** :

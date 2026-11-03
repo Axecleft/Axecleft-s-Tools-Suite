@@ -27,7 +27,7 @@ The English name lets the generators, merchants and crafting recognize the item.
 ### What stays in English
 
 - **Shop tags** (`Shop: Scroll`), so every world reads them. See [Shop Tags](Shop-Tags).
-- **Construction lines** in item descriptions, for [crafting](Crafting#how-requirements-are-found). Translated SRD items use their English line; your own items need the line in English.
+- **Construction lines** in item descriptions, for [crafting](Crafting#how-requirements-are-found), can be in English, French, Spanish or Portuguese. Translated SRD items use their English line.
 - **Damage boxes** in the [Poison & Disease Creator](Poison-and-Disease-Creator) (`1d6 Con`, `2d12 hp`).
 
 ## Translating the modules

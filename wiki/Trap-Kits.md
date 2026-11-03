@@ -10,7 +10,7 @@ A **trap kit** is an item that holds the parts of a ready-built mechanical trap,
 - **Crafting**: a character makes one with Craft (trapmaking) on the [Crafting](Crafting-Tabs#trap-kits) window's **Trap kits** tab. The kit goes into the crafter's inventory.
 - **From a trap actor (GM)**: right-click a trap actor in the Actors sidebar and choose **Make Trap Kit**. The kit is created in the **Trap Kits** Items folder; drag it to a character or a merchant.
 
-Kits are for mechanical traps only. Magic traps come from spellcasting.
+Trap kits are for mechanical traps only. Magic traps are made on the Crafting window's [Magic traps](Crafting-Tabs#magic-traps) tab as a **Magic Trap** item: by default only the caster who built it can set it, on the scene where it was built (see **Magic traps: can be carried** below).
 
 The kit's description gives the trap and its CR, how long setting it takes, and its recovery DC.
 
@@ -28,6 +28,8 @@ When it's set:
 - Who sees the token depends on **Trap kits: who sees a placed trap** (below).
 
 Setting takes 1 minute per CR. The card shows the time, but game time isn't advanced.
+
+With **Trap kits: need Craft (trapmaking)** on (the default), the character needs at least 1 rank in Craft (trapmaking) to set a kit.
 
 ## Recovering a trap
 
@@ -89,9 +91,15 @@ In **Configure Settings → Axecleft's Traps, Poisons, and Diseases**.
 
 | Setting | Default | What it does |
 |---|---|---|
+| **Trap kits: need Craft (trapmaking)** | On | Making and setting a mechanical trap kit needs at least 1 rank in Craft (trapmaking). Off: anyone can, as the SRD allows. |
+| **Magic traps: can be carried** | Off | Off: a Magic Trap item can only be set by the caster who built it, on the scene where it was built. On: it's a kit any spellcaster can carry and set. Magic traps are never packed up again. |
 | **Trap kits: GM approves** | On | A player setting or recovering a trap sends a request that the GM approves on its chat card. Off: it happens at once. |
 | **Trap kits: setting takes time** | On | Setting takes 1 minute per CR (shown on the card; game time isn't advanced). Off: traps are set at once. Recovering always takes 1 minute per CR. |
 | **Trap kits: who sees a placed trap** | GM only, plus a marker for the player who set it | **GM only**: a hidden token. **Everyone**: a visible token (the GM decides whether creatures spot it). **GM only, plus a marker**: a hidden token, and the player who set it sees a marker they can share (My Traps). |
 | **Trap kits: placed traps can be recovered** | On | Off: once placed, a trap stays until triggered or disabled. |
 | **Trap kits: compendiums for crafting** | Blank | Actor compendiums whose mechanical traps can be crafted as kits, separated by commas (for example `traps-and-poisons.traps`). Blank: every compendium with trap actors. |
 | **Trap kits: crafting progress** | Silver pieces (SRD) | The coin each week's Craft (trapmaking) progress is counted in: the check × the DC in **Copper pieces** (10 times slower), **Silver pieces** (SRD), **Gold pieces** (10 times faster) or **Platinum pieces** (100 times faster). The SRD's silver makes costly traps take years: a Wide-Mouth Spiked Pit Trap (7,200 gp, DC 25) takes 288 weeks for a crafter whose check is 10. |
+
+## Tours
+
+The Crafting window's **Trap kits** and **Magic traps** tabs each have a guided tour: the window's **⋮** menu → **Tour of this tab** (on Foundry 11, the **Tour** button in the title bar), or **Configure Settings → Tour Management**.

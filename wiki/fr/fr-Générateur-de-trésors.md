@@ -12,9 +12,11 @@ Chaque module ajoute ses propres onglets : vous ne voyez que ceux des modules qu
 |---|---|---|
 | **Gemmes**, **Objets d'art**, **Bijoux** | Gemmes | Gemmes, objets d'art et bijoux, choisis ou tirés. Voir [Gemmes, art et bijoux](fr-Gemmes-art-et-bijoux). |
 | **Forge** | Armurerie | Armes, armures, boucliers et munitions faits à la main. Voir [Forge](fr-Forge). |
+| **Cristaux** | Armurerie | Des cristaux de sertissage, tirés ou choisis. Seulement tant que le paramètre **Cristaux de sertissage** de l'Armurerie est activé. Voir [Forge](fr-Forge#crystals-tab). |
 | **Curiosités** | Curiosités | Potions, parchemins, baguettes, anneaux, sceptres, bâtons, objets merveilleux et psioniques faits à la main. Voir [Atelier des Curiosités](fr-Atelier-des-Curiosités). |
 | **Trésor par niveau** | intégré | La table Trésor du SRD pour un niveau de rencontre. Voir [Trésor par niveau](fr-Trésor-par-niveau). |
 | **Butin Token** | intégré | Le trésor propre à chaque token de PNJ, selon son FP. Voir [Butin Token](fr-Butin-Token). |
+| **Trésors** | Éditeur de trésors | Des trésors : des coffres à piller à remplir, piéger, placer sur une scène et partager entre le groupe. Foundry 13–14. Voir [Éditeur de trésors](fr-Éditeur-de-trésors). |
 | **Listes** | intégré | Vos gemmes, matériaux, malédictions, corrections de prix personnalisés, et plus. Voir [Listes de trésors](fr-Listes-de-trésors). |
 
 Certains modules ajoutent aussi des boutons au-dessus des onglets.
@@ -29,6 +31,8 @@ Chaque onglet qui crée du trésor se termine par la case **Placer les objets da
 | **Un acteur ou un token choisi** | Choisissez un acteur ou un token dans la liste, ou faites glisser un acteur de la barre latérale des Acteurs sur la case. |
 | **Barre latérale des Objets (dossier « Trésors générés »)** | Les objets sont créés dans la barre latérale des Objets, dans un dossier nommé Trésors générés. |
 | **Carte de chat seulement (créer les objets plus tard)** | Rien n'est encore créé. La carte de chat liste les résultats, avec un bouton **Créer l'objet** pour chacun. |
+
+Pour envoyer le trésor de chaque onglet dans un trésor amassé, appuyez sur **Y envoyer les autres onglets** dans l'onglet [Trésors](fr-Éditeur-de-trésors#target-value) : cela règle **Un acteur ou un token choisi** sur ce trésor.
 
 **Estimation :**
 - Les objets donnés à un acteur ou à un token vont directement dans son inventaire avec leur vraie valeur déjà tirée, prêts pour une feuille de butin. Les pièces vont dans sa bourse. Un token non lié garde son butin sur cette seule créature.
@@ -45,3 +49,14 @@ Si une partie du trésor demande un module que vous n'avez pas, par exemple des 
 ## Vos choix sont gardés
 
 La fenêtre se souvient de vos derniers choix dans chaque onglet pour la prochaine fois. Les réglages de génération et des pièces sont enregistrés pour le monde : tous les MJ du monde les partagent.
+
+<a id="tours"></a>
+## Visites guidées
+
+Les visites guidées parcourent un onglet une partie à la fois, en montrant ce que fait chaque commande. Chaque onglet en a une : Gemmes, Objets d'art, Bijoux, Forge, Cristaux, Curiosités, Trésor par niveau, Réglages de génération, Butin Token, Listes et Trésors. La visite de chaque onglet de trésor se termine par **Placer les objets dans** et **Générer**.
+
+- **Visite de cet onglet** : dans le menu **⋮** de la fenêtre (en haut à droite). Elle lance la visite de l'onglet ouvert.
+- **Configurer les paramètres → Gestion des visites guidées** : la liste de toutes les visites dans Foundry.
+- **Foundry 11** : un bouton **Visite** dans la barre de titre de la fenêtre, à la place du menu ⋮.
+
+La fenêtre d'accueil qui s'ouvre au démarrage de Foundry a aussi **Faire une visite guidée**, qui ouvre la Gestion des visites guidées.

@@ -26,7 +26,7 @@ Sélectionnez des tokens de PNJ sur la scène, puis appuyez sur **Actualiser**. 
 
 Boutons :
 - **Tirer le butin des tokens sélectionnés** : tire le butin de chaque token sélectionné.
-- **Vider le butin** : retire uniquement ce que le Générateur de trésors a mis sur les tokens sélectionnés (ses objets marqués et les pièces qu'il a ajoutées). Tout ce que vous avez donné vous-même au token reste.
+- **Vider le butin** : retire uniquement ce que le Générateur de trésors a mis sur les tokens sélectionnés (ses objets marqués et les pièces qu'il a ajoutées). Tout ce que vous avez donné vous-même au token reste. Le butin déjà rassemblé dans un trésor n'est pas repris.
 - **Actualiser** : relit la sélection.
 
 ## Butin automatique
@@ -48,3 +48,9 @@ Le butin automatique ne s'applique qu'aux tokens de PNJ non liés. Il ne s'appli
 
 - **Les PNJ à niveaux de classe** portent, selon le SRD, l'équipement de PNJ au lieu d'un trésor. Réglez leur Trésor sur *Aucun* si vous les équipez à la main.
 - Tout le reste suit l'onglet [Trésor par niveau](fr-Trésor-par-niveau) : le paiement des pièces, et les [Réglages de génération](fr-Réglages-de-génération) pour la lumière, les poisons, les malédictions et le reste.
+
+## Après le combat
+
+Pour rassembler le butin des créatures tombées dans un coffre et le partager entre le groupe, utilisez **Rassembler le butin** dans l'onglet [Trésors](fr-Éditeur-de-trésors#gather-loot). Il prend le butin Token (et les pièces tirées) des tokens sélectionnés, ou de toutes les créatures de la scène qui sont vaincues, mortes ou à 0 pv.
+
+Une visite guidée de cet onglet se trouve dans le menu **⋮** de la fenêtre (**Visite de cet onglet**). Voir [Visites guidées](fr-Générateur-de-trésors#tours).

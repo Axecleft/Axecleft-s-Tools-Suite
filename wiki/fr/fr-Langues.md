@@ -27,7 +27,7 @@ Le nom anglais permet aux générateurs, aux marchands et à l'artisanat de reco
 ### Ce qui reste en anglais
 
 - Les **étiquettes de boutique** (`Shop: Scroll`), pour que tous les mondes les lisent. Voir [Étiquettes de boutique](fr-Étiquettes-de-boutique).
-- Les **lignes de fabrication** dans les descriptions des objets, pour l'[artisanat](fr-Artisanat#comment-les-conditions-sont-trouvées). Les objets du SRD traduits utilisent leur ligne anglaise ; vos propres objets ont besoin de la ligne en anglais.
+- Les **lignes de fabrication** dans les descriptions des objets, pour l'[artisanat](fr-Artisanat#comment-les-conditions-sont-trouvées), peuvent être en anglais, en français, en espagnol ou en portugais. Les objets du SRD traduits utilisent leur ligne anglaise.
 - Les **cases de dégâts** du [Créateur de poisons et maladies](fr-Créateur-de-poisons-et-maladies) (`1d6 Con`, `2d12 hp`).
 - Les **mots-clés des malus** des [malédictions personnalisées](fr-Objets-maudits#malédictions-personnalisées) et les **mots de métamagie** (`+empower`…).
 

@@ -14,7 +14,7 @@ Crafting comes with Armory, Curios and Traps. Each module adds its own tabs to t
 | Control | What it does |
 |---|---|
 | **Crafter** | The character who makes the item. Players pick from the characters they own; the GM from every character and NPC. |
-| Tabs | One per kind of item: arms and armor, specific magic arms, scrolls and potions, wondrous items, alchemy, psionic items, trap kits. See [Crafting Tabs](Crafting-Tabs). |
+| Tabs | One per kind of item: arms and armor, specific magic arms, socket crystals, scrolls and potions, wondrous items, alchemy, psionic items, trap kits, magic traps. See [Crafting Tabs](Crafting-Tabs). |
 | Summary | What the item needs and whether the crafter has it, marked ✔ or ✘: the feat, caster level, each spell, alignment, class, level, skill ranks, gp and XP. Then the cost, the time and the checks. |
 | **Send for approval** / **Send to the GM** | A player's button. The request goes to the GM as a chat card. |
 | **Approve and craft now** | The GM's button. Skips the request step. |
@@ -24,6 +24,10 @@ Notes on the window:
 - As GM you can override any requirement. The request card shows what's missing.
 - A player can send a request with requirements marked ✘. The GM can still approve it, but ask first.
 - Time is shown for the GM. It isn't enforced, and game time isn't advanced.
+
+## Tours
+
+Every crafting tab has a guided tour, for players too: the window's **⋮** menu (top right) → **Tour of this tab**, or **Configure Settings → Tour Management**. On Foundry 11, use the **Tour** button in the window's title bar. Each tour also points out the **Crafter**, the summary and **Send for approval**.
 
 ## Requirements
 
@@ -42,7 +46,7 @@ Pick the source in the spell's drop-down when the crafter doesn't know the spell
 
 ### Caster level, feat and the rest
 
-- **Feat**: the item creation feat. Epic items need the feat's epic version too, and **Epic items** on in [Generation Settings](Generation-Settings#campaign).
+- **Feat**: the item creation feat. Epic items need the feat's epic version too, and **Epic items** on in [Generation Settings](Generation-Settings#campaign). Feats show by the names your world uses (D35E's Feats compendium, translated with Babele).
 - **Caster level**: the item's caster level from its construction line, or the SRD minimum for its spells.
 - **Creator must be…**: alignment, class, character level, skill ranks, caster level, from the item's construction line.
 - **gp** and **XP**: the crafter must have them. With **XP can't cost a level** on, the crafter can only spend the XP above their level's minimum.
@@ -61,7 +65,7 @@ For compendium items (specific magic arms, rings, rods, staffs, wondrous items),
 - Anything else is listed for the GM to check.
 - **Cost 1,250 gp + 5,100 XP** anywhere in the description replaces the usual cost (half the price in gp, 1/25 in XP).
 - **Price** is read too, and used when the compendium's price is missing or wrong.
-- The line is read in English. Translated SRD items use their English line; your own items need the line in English.
+- The line can be in English, French, Spanish or Portuguese: *NLS 5* (also NL, NC, NM), *Prérequis :* / *Requisitos:*, *ou* / *o* between names, *Prix 12 000 po* / *Precio* / *Preço*, *Coût 6 000 po + 480 PX* (also Costo, Custo; mo, PE). Thousands can be written 1,250, 1 250 or 1.250. A feat written by the name your world shows counts as its English name. Translated SRD items use their English line.
 - Without a construction line, the item can still be made, but the GM decides what it needs.
 
 ## Cost and time

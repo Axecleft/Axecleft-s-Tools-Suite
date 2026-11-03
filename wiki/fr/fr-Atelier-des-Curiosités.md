@@ -82,6 +82,7 @@ Pour un grimoire, choisir une classe dans la liste règle aussi **Classe du grim
 | **Catégorie** et puissance | Pour **Objet aléatoire** : la catégorie (potion, anneau, sceptre, parchemin, bâton, baguette, objet merveilleux) et **Faible**, **Moyen** ou **Puissant**. |
 | **Diffuse de la lumière** | **Selon les réglages de génération (aléatoire)**, **Non** ou **Oui**. Anneaux, sceptres, bâtons et objets merveilleux uniquement. L'apparence suit l'école de magie de l'objet. |
 | **Intelligent** | **Selon les réglages de génération (aléatoire)**, **Non**, ou **Oui (tirer son esprit et ses pouvoirs)**. Demande D35E 3.1 ou plus récent ; c'est donc masqué sous Foundry 11. |
+| **Dessein spécial** | Avec Intelligent sur **Oui** : **Selon les réglages de génération**, **Aucun**, **Aléatoire**, l'un des desseins de D35E, ou **Le vôtre…** avec une case **Votre but** pour vos propres mots. Vos mots remplacent aussi *Un but au choix du MJ* quand un tirage tombe sur ce résultat. Un dessein choisi ici s'ajoute aux pouvoirs de l'objet. |
 | **Maudit** | **Non**, **Malédiction aléatoire (tables du SRD)**, un type de malédiction, ou l'une de vos malédictions personnalisées. Voir [Objets maudits](fr-Objets-maudits). |
 
 ## Combien
@@ -92,9 +93,15 @@ Pour un grimoire, choisir une classe dans la liste règle aussi **Classe du grim
 
 > **<img width="603" height="400" alt="image" src="https://github.com/user-attachments/assets/8fd72efc-470a-44cd-9dc7-48dbd3a5aff1" />**
 
+Ces cases ne s'affichent que lorsqu'elles s'appliquent : le niveau des potions pour les potions et les tatouages psioniques, le niveau des baguettes pour les baguettes et les dorjés.
+
 | Commande | Effet |
 |---|---|
 | **Niveau maximal des potions** | SRD : niveau 3. Augmentez-le pour que le MJ puisse créer ici des potions et tatouages de sorts et pouvoirs de plus haut niveau. L'artisanat des joueurs reste toujours au niveau 3. |
 | **Niveau maximal des baguettes** | SRD : niveau 4. Augmentez-le de la même façon pour les baguettes et les dorjés. L'artisanat des joueurs reste toujours au niveau 4. |
 
 Réglez [Placer les objets dans](fr-Générateur-de-trésors#placer-les-objets-dans) et appuyez sur **Générer**.
+
+## Visite guidée
+
+Une visite guidée de l'onglet Curiosités se trouve dans le menu **⋮** de la fenêtre (**Visite de cet onglet**). Elle change **Créer** pour montrer les cases des potions, des parchemins, des grimoires, et des objets précis et aléatoires, et remet votre choix à la fin. Voir [Visites guidées](fr-Générateur-de-trésors#tours).

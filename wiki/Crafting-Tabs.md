@@ -9,13 +9,17 @@ Each module adds its own tabs. You only see the tabs of the modules you have act
 | [Magic arms and armor](#magic-arms-and-armor) | Armory | Craft Magic Arms and Armor |
 | [Specific magic arms](#specific-magic-arms) | Armory | Craft Magic Arms and Armor |
 | [Arms and armor (Craft)](#arms-and-armor-craft) | Armory | Craft (weaponsmithing, armorsmithing, bowmaking) |
+| [Socket crystals](#socket-crystals) | Armory (while **Socket crystals** is on) | Craft Magic Arms and Armor |
 | [Scrolls, potions, wands](#scrolls-potions-wands) | Curios | Scribe Scroll, Brew Potion, Craft Wand (and the psionic feats) |
 | [Rings, rods, staffs, wondrous](#rings-rods-staffs-wondrous) | Curios | Forge Ring, Craft Rod, Craft Staff, Craft Wondrous Item |
 | [Alchemical items](#alchemical-items) | Curios | Craft (alchemy) |
 | [Crystals, psicrowns](#crystals-psicrowns) | Curios | Craft Cognizance Crystal, Craft Psicrown |
 | [Trap kits](#trap-kits) | Traps | Craft (trapmaking) |
+| [Magic traps](#magic-traps) | Traps | Casting the spell (spell traps), Craft Wondrous Item (magic device traps) |
 
 > **<img width="610" height="248" alt="image" src="https://github.com/user-attachments/assets/7aedf4bf-e8b1-4044-b8dc-bda438a35991" />**
+
+Every tab has a guided tour, for players too: the Crafting window's **⋮** menu → **Tour of this tab** (on Foundry 11, the **Tour** button in the title bar). See [Crafting](Crafting#tours).
 
 ---
 
@@ -88,6 +92,15 @@ Mundane weapons, armor, shields and ammunition made with Craft (SRD).
 - Raw materials cost ⅓ of the price. The DC comes from the SRD Craft table.
 - A masterwork item has a separate masterwork component (DC 20), with its own check.
 - A check failed by 5 or more ruins half of that part's raw materials.
+
+<a id="socket-crystals"></a>
+## Socket crystals
+
+Only while **Configure Settings → Axecleft's Armory → Socket crystals** is on. Craft a socket crystal with Craft Magic Arms and Armor: half its price in gp and 1/25 in XP.
+
+- The list holds the Armory's nine example crystals and the crystals in your item compendiums (for example augment crystals in Axecleft's Shared Data), read fresh each time the window opens.
+- A crystal from a compendium uses the construction line in its description: its spells, other prerequisites, caster level and the SRD cost. See [How requirements are found](Crafting#how-requirements-are-found).
+- To set a crystal into a weapon, armor or shield, see [Forge: using a crystal](Forge#using-a-crystal).
 
 ---
 
@@ -171,8 +184,24 @@ Craft (trapmaking) by the SRD: mechanical traps only. The result is a **Trap Kit
 |---|---|
 | **Trap** | A mechanical trap actor, listed as "CR {cr}: {name}". Grouped by source: **This world** (trap actors in the Actors sidebar you can see, except placed traps) and each compendium set in **Trap kits: compendiums for crafting**. |
 
-- Raw materials cost ⅓ of the trap's price. Poisons in it are bought at full price (×20 with an automatic reset).
+- Raw materials cost ⅓ of the trap's price. Poisons and diseases in it are bought at full price (×20 with an automatic reset). A disease has a price when its description has a *Cost: 1,000 gp* line, as the [Poison & Disease Creator](Poison-and-Disease-Creator) writes from its **Price** box.
+- With the setting **Trap kits: need Craft (trapmaking)** on (the default), the crafter needs at least 1 rank in Craft (trapmaking). Off, anyone can, as the SRD allows. See [Trap Kits](Trap-Kits#settings).
 - Each week's progress is a check: check × DC in silver pieces (SRD), or the coin set in the **Trap kits: crafting progress** setting (copper, gold or platinum pieces). See [Trap Kits](Trap-Kits#settings).
 - The trap needs a price: add "Market Price - 1,000 gp" (its SRD price) to its notes if it has none.
-- Magic traps can't be crafted; they come from spellcasting.
+- Magic traps aren't made as trap kits: use the [Magic traps](#magic-traps) tab.
 - Traps from the [Random Trap Generator](Random-Trap-Generator) are in the GM's world. To let a player craft one, the GM shows it to them (Observer permission).
+- **How a trap actor is read**: a help section on this tab and the Magic traps tab lists the lines the module reads from a trap actor (Market Price, triggers, resets, poisons, diseases, spell effects), in English or French.
+
+<a id="magic-traps"></a>
+## Magic traps
+
+Magic traps by the SRD's Magic Trap Costs. The result is a **Magic Trap** item. There's no skill check.
+
+| Kind | What it takes |
+|---|---|
+| **Spell trap** (*fire trap*, *glyph of warding*…) | Cast by its creator, free, or for the SRD price of hiring an NPC caster. |
+| **Magic device trap** | Craft Wondrous Item and every spell in it, including its trigger's (*alarm*, *detect good*, *true seeing*). It costs its SRD gp and XP (with an automatic reset, 500 gp and 40 XP × caster level × spell level for each spell) and takes 1 day per 500 gp. |
+
+- By default, only the caster who built it can set it, and only on the scene where it was built. With the setting **Magic traps: can be carried** on, it's a kit any spellcaster can carry and set. See [Trap Kits](Trap-Kits#settings).
+- Magic traps are never packed up again into a kit.
+- The **How a trap actor is read** help section is on this tab too.

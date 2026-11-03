@@ -37,10 +37,34 @@ See [Cursed Items](Cursed-Items).
 ## Merchants
 
 **Players can't buy from my merchant.**
-New merchants are made with permissions set to None. Give the players permission on the merchant's sheet.
+Merchants are on the [Axecleft's Shop](Axecleft's-Shop) sheet. Players need **Limited** or **Observer** permission on the merchant (never Owner): new merchants are made with permissions set to None. A GM must also be logged in: the GM's game carries out every trade. Check the shop's GM settings too: it can be open to all players or only to those set in the actor's Ownership.
+
+**A player has been locked out of a shop.**
+A lock-out from a pickpocketing or shoplifting card lasts until you let the character back, in the shop sheet's GM settings, where locked-out characters are listed.
 
 **My own compendium items never appear in shops.**
 The compendium must be in your [Item Sources](Merchant-Generator#item-sources-tab). Press **Save and Rescan** after adding it, or **Rescan** after adding items. To sell an item in shops other than its own kind, give it a [Shop tag](Shop-Tags).
+
+## Hoards
+
+**Where is the Hoard Editor?**
+It's the **Hoards** tab of the Treasure Generator, and the **Hoard Editor** button on a hoard's sheet. See [Hoard Editor](Hoard-Editor).
+
+## Adventurers and Minions
+
+**A player can't create a character.**
+Without Foundry's **Create New Actors** permission, A&M asks a logged-in GM to create it. A GM must be logged in, and **Players build through the GM** must be on. See [Adventurers and Minions](Adventurers-and-Minions).
+
+**I added classes or feats to a compendium and A&M doesn't show them.**
+A&M reads races, classes and feats once a session. Press **Reload races, classes and feats** on its start page.
+
+## VooDoo
+
+**The phone shows Foundry's warning about a small screen.**
+Mobile accounts don't show it. Log in with the player's **(Mobile)** account, not their main one.
+
+**The phone has no map.**
+The map is off unless you tick **Map** for that account in the Mobile accounts pop-up, or the player turns it on in the phone window's settings. See [VooDoo](VooDoo).
 
 ## Crafting
 

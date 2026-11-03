@@ -37,10 +37,34 @@ Voir [Objets maudits](fr-Objets-maudits).
 ## Marchands
 
 **Les joueurs ne peuvent pas acheter à mon marchand.**
-Les nouveaux marchands sont créés avec les permissions réglées sur Aucun. Donnez la permission aux joueurs sur la feuille du marchand.
+Les marchands sont sur la feuille [Boutique d'Axecleft](fr-Boutique-d'Axecleft). Les joueurs ont besoin de la permission **Limité** ou **Observateur** sur le marchand (jamais Propriétaire) : les nouveaux marchands sont créés avec les permissions réglées sur Aucun. Un MJ doit aussi être connecté : c'est la partie du MJ qui effectue chaque échange. Vérifiez aussi les réglages du MJ de la boutique : elle peut être ouverte à tous les joueurs ou seulement à ceux définis dans la Propriété de l'acteur.
+
+**Un joueur a été interdit d'une boutique.**
+Une interdiction venue d'une carte de vol à la tire ou de vol à l'étalage dure jusqu'à ce que vous laissiez revenir le personnage, dans les réglages du MJ de la feuille de boutique, où les personnages interdits sont listés.
 
 **Les objets de mon propre compendium n'apparaissent jamais en boutique.**
 Le compendium doit faire partie de vos [Sources d'objets](fr-Générateur-de-marchands#onglet-sources-dobjets). Appuyez sur **Enregistrer et réanalyser** après l'avoir ajouté, ou sur **Réanalyser** après avoir ajouté des objets. Pour vendre un objet dans d'autres boutiques que celles de son genre, donnez-lui une [étiquette de boutique](fr-Étiquettes-de-boutique).
+
+## Éditeur de trésors
+
+**Où est l'Éditeur de trésors ?**
+C'est l'onglet **Trésors** du Générateur de trésors, et le bouton **Éditeur de trésors** sur la feuille d'un trésor. Voir [Éditeur de trésors](fr-Éditeur-de-trésors).
+
+## Aventuriers et Serviteurs
+
+**Un joueur ne peut pas créer de personnage.**
+Sans la permission **Créer de nouveaux acteurs** de Foundry, A&M demande à un MJ connecté de le créer. Un MJ doit être connecté, et **Les joueurs créent par l'intermédiaire du MJ** doit être activé. Voir [Aventuriers et Serviteurs](fr-Aventuriers-et-Serviteurs).
+
+**J'ai ajouté des classes ou des dons à un compendium et A&M ne les montre pas.**
+A&M lit les races, les classes et les dons une fois par session. Appuyez sur **Recharger races, classes et dons** sur sa page d'accueil.
+
+## VooDoo
+
+**Le téléphone affiche l'avertissement de Foundry sur un petit écran.**
+Les comptes mobiles ne l'affichent pas. Connectez-vous avec le compte **(Mobile)** du joueur, pas avec son compte principal.
+
+**Le téléphone n'a pas de carte.**
+La carte est désactivée, sauf si vous cochez **Carte** pour ce compte dans la fenêtre Comptes mobiles, ou si le joueur l'active dans les réglages de la fenêtre du téléphone. Voir [VooDoo](fr-VooDoo).
 
 ## Artisanat
 

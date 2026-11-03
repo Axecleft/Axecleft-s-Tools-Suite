@@ -61,3 +61,9 @@ Les pièges d'exemple du SRD ont des caractéristiques fixes et ne peuvent donc 
 
 - Placez le token de l'acteur piège sur une scène, ou laissez les joueurs le fabriquer sous forme de [kit de piège](fr-Kits-de-piège). Les pièges de votre monde peuvent être fabriqués dès que le MJ les montre à un joueur (permission Observateur).
 - Créez vos propres poisons et maladies avec le [Créateur de poisons et maladies](fr-Créateur-de-poisons-et-maladies).
+- Piégez un coffre au trésor : choisissez le piège dans l'onglet [Trésors](fr-Éditeur-de-trésors#on-the-scene), et il est placé caché sur la case du coffre.
+- Imprimez un piège sous forme de bloc de piège à la manière du Guide du Maître avec les [Fiches imprimables](fr-Fiches-imprimables#traps).
+
+## Visites guidées
+
+Le Générateur de pièges aléatoires et sa fenêtre **Personnaliser** ont chacun une visite guidée : le menu **⋮** de la fenêtre → **Visite de cette fenêtre** (sous Foundry 11, le bouton **Visite** de la barre de titre), ou **Configurer les paramètres → Gestion des visites guidées**.

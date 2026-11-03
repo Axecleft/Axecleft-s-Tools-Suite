@@ -13,10 +13,12 @@
 - [Forge (Armurerie)](fr-Forge)
 - [Atelier des Curiosités](fr-Atelier-des-Curiosités)
 - [Listes et journal des listes de trésors](fr-Listes-de-trésors)
+- [Éditeur de trésors (onglet Trésors)](fr-Éditeur-de-trésors)
 
-**Marchands**
+**Marchands et butin**
 - [Générateur de marchands](fr-Générateur-de-marchands)
 - [Étiquettes de boutique](fr-Étiquettes-de-boutique)
+- [Boutique d'Axecleft : marchands, butin et réserve du groupe](fr-Boutique-d'Axecleft)
 
 **Artisanat**
 - [La fenêtre d'artisanat](fr-Artisanat)
@@ -27,7 +29,19 @@
 - [Créateur de poisons et maladies](fr-Créateur-de-poisons-et-maladies)
 - [Kits de piège et Mes pièges](fr-Kits-de-piège)
 
+**Aventuriers et Serviteurs**
+- [Présentation](fr-Aventuriers-et-Serviteurs)
+- [Créer un personnage](fr-AS-Créer-un-personnage)
+- [Personnages aléatoires](fr-AS-Personnages-aléatoires)
+- [Modifier un acteur](fr-AS-Modifier-un-acteur)
+- [Variantes et profils](fr-AS-Variantes-et-profils)
+
+**À la table**
+- [VooDoo : la fiche sur téléphone](fr-VooDoo)
+- [Fiches imprimables](fr-Fiches-imprimables)
+
 **Référence**
+- [Suite d'outils d'Axecleft (module)](fr-Suite-d'outils-Axecleft)
 - [Paramètres des modules](fr-Paramètres)
 - [Langues](fr-Langues)
 - [FAQ](fr-FAQ)

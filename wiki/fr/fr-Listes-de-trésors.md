@@ -2,7 +2,7 @@
 
 Vos propres entrées pour les modules d'Axecleft se trouvent dans un journal nommé **Axecleft's Treasure Lists** : gemmes, objets d'art, matériaux et malédictions personnalisés, corrections de prix, et les entrées intégrées que vous avez désactivées. Chaque liste est une page avec un tableau. Modifiez les tableaux directement dans le journal, ou utilisez l'onglet **Listes** du Générateur de trésors.
 
-Les pages et les colonnes du journal gardent leurs noms anglais ; leur traduction est donnée entre parenthèses ci-dessous.
+Les noms des pages et des colonnes sont donnés ci-dessous en anglais, avec leur traduction entre parenthèses ; dans votre monde, le journal les affiche dans sa langue.
 
 > **<img width="964" height="805" alt="image" src="https://github.com/user-attachments/assets/357aa51d-aae2-4ce5-af94-2646a7da8357" />**
 
@@ -14,9 +14,12 @@ Les pages et les colonnes du journal gardent leurs noms anglais ; leur traductio
 | **Custom Art & Jewelry** (Art et bijoux personnalisés) | Gemmes | Object, Construction, Art or Jewelry, Weight (lb.), Image, Description |
 | **Custom Materials** (Matériaux personnalisés) | Gemmes | Material, Used For, Min Value Level, Max Value Level, Name As |
 | **Custom Embellishment Gems** (Gemmes d'ornement personnalisées) | Gemmes | Gem, Min Value Level, Max Value Level |
+| **Custom Premade Art** (Art tout fait personnalisé) | Gemmes | Vos propres objets d'art et livres tout faits, générés exactement tels qu'ils sont écrits. Voir [ci-dessous](#custom-premade-art). |
 | **Custom Curses** (Malédictions personnalisées) | Générateur de trésors | Curse, Table, Weight, Items, What it does, Penalties (buff). Voir [Objets maudits](fr-Objets-maudits#malédictions-personnalisées). |
 | **Price Corrections** (Corrections de prix) | Générateur de trésors | Item, Compendium, Price (gp), Note |
 | **Disabled Entries (module)** (Entrées désactivées) | chaque module | Name, List |
+
+Le journal est écrit dans la langue de votre monde, noms des pages compris. Chaque page explique ses colonnes, une par ligne, et se termine par une ligne d'exemple dans un tableau séparé qui n'est jamais lu. Gardez les en-têtes de colonnes tels quels : les modules relisent les tableaux grâce à eux. Quand la langue du monde change, les pages sont réécrites la prochaine fois que le MJ charge le monde, en gardant vos lignes ; une page dont les en-têtes de colonnes ont été modifiés à la main est laissée telle quelle.
 
 ### Gemmes personnalisées
 
@@ -36,12 +39,17 @@ Les pages et les colonnes du journal gardent leurs noms anglais ; leur traductio
 ### Matériaux personnalisés
 
 - **Used For** (Utilisé pour) liste les fabrications qui lui conviennent (Molded, Carved, Clothing, Book), séparées par des virgules.
-- Les tirages aléatoires n'utilisent un matériau qu'aux valeurs d'art comprises entre son **Min** et son **Max Value Level** (niveau de valeur, de 1 à 12).
+- Les tirages aléatoires n'utilisent un matériau qu'aux valeurs d'art comprises entre son **Min** et son **Max Value Level** (niveau de valeur, de 1 à 12). Les niveaux de valeur sont les 12 lignes de la table Objets d'art du SRD, les mêmes que la liste **Valeur** des onglets [Objets d'art et Bijoux](fr-Gemmes-art-et-bijoux#objets-dart-et-bijoux).
 - **Name As** (Nommé) est facultatif : un matériau « Loup » nommé « fourrure de loup » donne « Cape en fourrure de loup ».
 
 ### Gemmes d'ornement personnalisées
 
 Les gemmes qui peuvent orner l'art et les bijoux (« serti de rubis », « incrusté de jade »). Les tirages aléatoires les utilisent aux valeurs d'art comprises entre Min et Max Value Level (1 à 12).
+
+<a id="custom-premade-art"></a>
+### Art tout fait personnalisé
+
+Des pièces toutes faites, comme le trésor d'un livre que vous possédez, générées exactement telles que vous les écrivez, sans matériau, gemme ni qualité ajoutés. Donnez à chacune sa valeur en dés ou en nombre, et si vous voulez son créateur et sa source. L'art aléatoire inclut des pièces toutes faites aussi souvent que le dit le paramètre **Pièces toutes faites dans l'art aléatoire (%)** (voir [Gemmes, art et bijoux](fr-Gemmes-art-et-bijoux#module-settings)).
 
 ### Corrections de prix
 
@@ -61,10 +69,12 @@ Les entrées intégrées qui ne doivent jamais servir, une page par module. **Li
 > **<img width="595" height="1062" alt="image" src="https://github.com/user-attachments/assets/3c60ee04-825a-4a85-872b-b269ce484531" />**
 
 - **Liste** : choisissez une liste. Elle montre combien d'entrées vous avez ajoutées et combien d'entrées intégrées vous avez désactivées.
-- **Ajouter à la liste** : un formulaire avec les colonnes de cette liste. Remplissez-le et appuyez sur **Ajouter à [liste]**.
+- **Ajouter à la liste** : un formulaire avec les colonnes de cette liste. Survolez l'étiquette d'une colonne pour voir ce qu'elle contient ; les notes de la liste s'affichent sous les champs. Remplissez-le et appuyez sur **Ajouter à [liste]**.
 - **Vos entrées** : vos lignes, chacune avec **Retirer**. Les longues listes montrent les premières entrées, « …et n de plus (voir le journal) ».
 - **Désactiver des entrées intégrées** : tapez le nom d'une entrée intégrée, choisissez **Cette liste** ou **Toutes les listes de [module]**, et appuyez sur **Désactiver**. Les entrées désactivées vont sur la page « Disabled Entries ».
 - **Ouvrir le journal des listes** : ouvre le journal.
+
+Une visite guidée de l'onglet Listes se trouve dans le menu **⋮** de la fenêtre (**Visite de cet onglet**). Voir [Visites guidées](fr-Générateur-de-trésors#tours).
 
 ## La bibliothèque partagée
 

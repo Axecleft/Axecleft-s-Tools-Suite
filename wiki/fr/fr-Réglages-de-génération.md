@@ -37,12 +37,12 @@ Les distances sont saisies en pieds, l'unité de D35E.
 
 > **<img width="606" height="713" alt="image" src="https://github.com/user-attachments/assets/44fef60c-45f1-4b7e-a80d-72755fc99c0c" />**
 
-**Desseins spéciaux (objets intelligents) :**
+**Desseins spéciaux (objets intelligents) :** le SRD donne à un objet intelligent un dessein spécial et un pouvoir dédié *à la place* de l'un de ses pouvoirs.
 - **Les objets intelligents peuvent avoir un dessein spécial** : active les desseins spéciaux.
-- **toujours avec des pouvoirs majeurs** : les objets les plus capables, ceux qui ont des pouvoirs majeurs, en ont toujours un.
-- **plus … % des autres** : la chance pour tous les autres objets intelligents.
+- **% des objets intelligents dotés de pouvoirs majeurs** (SRD, 100 % par défaut) : ceux-ci échangent un pouvoir majeur contre le dessein et son pouvoir dédié.
+- **% de ceux qui n'ont que des pouvoirs mineurs** (règle maison, 0 % par défaut) : ceux-ci échangent un pouvoir mineur contre lui.
 
-Le SRD ne dit pas à quelle fréquence les desseins spéciaux apparaissent ; c'est la valeur par défaut d'Axecleft.
+Un dessein choisi à la main dans la [Forge](fr-Forge#choisir-les-caractéristiques-dun-objet-intelligent) ou dans l'[Atelier des Curiosités](fr-Atelier-des-Curiosités#objets-précis-et-aléatoires) s'ajoute aux pouvoirs de l'objet.
 
 **Options de lumière :**
 - **La couleur et l'animation de la lumière suivent les propriétés de l'objet** : une épée de feu vacille en orange, une arme sainte brille d'or, un objet nécromantique flotte dans un vert maladif. Désactivé : lumière blanche neutre.
@@ -56,6 +56,19 @@ Le SRD ne dit pas à quelle fréquence les desseins spéciaux apparaissent ; c'e
 - Les Grandes coûtent deux fois plus et pèsent deux fois plus.
 
 Décochez pour que tout soit de taille Moyenne.
+
+<a id="your-item-compendiums"></a>
+## Vos compendiums d'objets
+
+La part des trésors et du stock des marchands qui vient de vos propres compendiums d'objets (voir [Sources d'objets](fr-Générateur-de-marchands#onglet-sources-dobjets)) là où un module d'Axecleft fournit aussi ce genre d'objet :
+
+- **% des trésors** (0 par défaut, seulement les tables du SRD) : le [Trésor par niveau](fr-Trésor-par-niveau) et le [Butin Token](fr-Butin-Token) prennent cette part de leurs armes et armures magiques, potions, parchemins et autres objets dans vos compendiums d'objets au lieu des tables du SRD des modules. L'objet est du même genre et de la même catégorie ; s'il n'y en a aucun, les tables du SRD sont utilisées.
+- **% du stock des marchands** (50 par défaut) : les marchands tirent cette part de leur stock de vos compendiums d'objets.
+- Décoché : rien ne vient de vos compendiums là où un module fournit le genre d'objet.
+
+Les genres qu'aucun module ne couvre viennent toujours de vos compendiums.
+
+**Étiquettes de poids de trésor :** donnez à un objet de vos compendiums l'étiquette d'objet D35E `Treasure weight: 3` et il sort trois fois plus souvent que les autres objets avec lesquels il est tiré. `Treasure weight: 0` le tient à l'écart du trésor aléatoire et du stock des marchands ; on peut toujours le choisir à la main dans la Forge et l'Artisanat. Les objets sans l'étiquette pèsent 1. Ce n'est pas une [étiquette de boutique](fr-Étiquettes-de-boutique) : l'outil Étiquettes de boutique n'y touche donc pas.
 
 ## Poisons
 
@@ -72,3 +85,7 @@ Active les malédictions aléatoires et règle leur fréquence. Voir [Objets mau
 - **Appliquer les effets simples (malus, bonus inversés)** : transforme un +2 inversé en –2, retire la magie d'un objet d'illusion trompeuse, etc.
 - **Le stock des marchands peut être maudit** : désactivé par défaut, pour que les boutiques vendent des objets sains.
 - **Créer le compendium des buffs de malédiction** : construit le compendium de monde « Malédictions d'Axecleft » (voir [Objets maudits](fr-Objets-maudits#les-compendiums-des-buffs-de-malédiction)).
+
+## Visite guidée
+
+Les Réglages de génération ont leur propre visite guidée, dans **Configurer les paramètres → Gestion des visites guidées**. Voir [Visites guidées](fr-Générateur-de-trésors#tours).

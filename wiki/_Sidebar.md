@@ -13,10 +13,12 @@
 - [Forge (Armory)](Forge)
 - [Curios Workshop](Curios-Workshop)
 - [Lists and the Treasure Lists journal](Treasure-Lists)
+- [Hoard Editor (Hoards tab)](Hoard-Editor)
 
-**Merchants**
+**Merchants and loot**
 - [Merchant Generator](Merchant-Generator)
 - [Shop Tags](Shop-Tags)
+- [Axecleft's Shop: merchants, loot and party storage](Axecleft's-Shop)
 
 **Crafting**
 - [The Crafting window](Crafting)
@@ -27,7 +29,19 @@
 - [Poison and Disease Creator](Poison-and-Disease-Creator)
 - [Trap Kits and My Traps](Trap-Kits)
 
+**Adventurers and Minions**
+- [Overview](Adventurers-and-Minions)
+- [Build a character](AM-Build)
+- [Random characters](AM-Random)
+- [Edit an actor](AM-Edit)
+- [Variants and builds](AM-Variants-and-Builds)
+
+**At the table**
+- [VooDoo: the phone sheet](VooDoo)
+- [Printable Sheets](Printable-Sheets)
+
 **Reference**
+- [Axecleft's Tool Suite (module)](Axecleft's-Tools-Suite)
 - [Module settings](Settings)
 - [Languages](Languages)
 - [FAQ](FAQ)

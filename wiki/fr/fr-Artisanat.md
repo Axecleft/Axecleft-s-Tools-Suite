@@ -13,7 +13,7 @@ L'Artisanat est fourni avec l'Armurerie, les Curiosités et les Pièges. Chaque 
 | Commande | Effet |
 |---|---|
 | **Artisan** | Le personnage qui fabrique l'objet. Les joueurs choisissent parmi leurs personnages ; le MJ parmi tous les personnages et PNJ. |
-| Onglets | Un par genre d'objet : armes et armures, armes magiques spécifiques, parchemins et potions, objets merveilleux, alchimie, objets psioniques, kits de piège. Voir [Onglets d'artisanat](fr-Onglets-artisanat). |
+| Onglets | Un par genre d'objet : armes et armures, armes magiques spécifiques, cristaux de sertissage, parchemins et potions, objets merveilleux, alchimie, objets psioniques, kits de piège, pièges magiques. Voir [Onglets d'artisanat](fr-Onglets-artisanat). |
 | Résumé | Ce que demande l'objet et si l'artisan l'a, marqué ✔ ou ✘ : le don, le niveau de lanceur de sort, chaque sort, l'alignement, la classe, le niveau, les degrés de maîtrise, les po et les PX. Puis le coût, le temps et les tests. |
 | **Envoyer pour approbation** / **Envoyer au MJ** | Le bouton d'un joueur. La demande part au MJ sous forme de carte de chat. |
 | **Approuver et fabriquer maintenant** | Le bouton du MJ. Saute l'étape de la demande. |
@@ -23,6 +23,10 @@ Remarques sur la fenêtre :
 - En tant que MJ, vous pouvez passer outre toute condition. La carte de demande montre ce qui manque.
 - Un joueur peut envoyer une demande avec des conditions marquées ✘. Le MJ peut quand même l'approuver, mais demandez d'abord.
 - Le temps est indiqué pour le MJ. Il n'est pas imposé, et le temps de jeu n'avance pas.
+
+## Visites guidées
+
+Chaque onglet d'artisanat a une visite guidée, pour les joueurs aussi : le menu **⋮** de la fenêtre (en haut à droite) → **Visite de cet onglet**, ou **Configurer les paramètres → Gestion des visites guidées**. Sous Foundry 11, utilisez le bouton **Visite** de la barre de titre de la fenêtre. Chaque visite montre aussi l'**Artisan**, le résumé et **Envoyer pour approbation**.
 
 ## Conditions
 
@@ -41,7 +45,7 @@ Choisissez la source dans la liste déroulante du sort quand l'artisan ne conna�
 
 ### Niveau de lanceur de sort, don et le reste
 
-- **Don** : le don de création d'objets. Les objets épiques demandent aussi la version épique du don, et **Objets épiques** activé dans les [Réglages de génération](fr-Réglages-de-génération#campagne).
+- **Don** : le don de création d'objets. Les objets épiques demandent aussi la version épique du don, et **Objets épiques** activé dans les [Réglages de génération](fr-Réglages-de-génération#campagne). Les dons s'affichent sous les noms qu'utilise votre monde (le compendium Dons de D35E, traduit avec Babele).
 - **Niveau de lanceur de sort** : celui de l'objet d'après sa ligne de fabrication, ou le minimum du SRD pour ses sorts.
 - **Le créateur doit être…** : alignement, classe, niveau de personnage, degrés de maîtrise, niveau de lanceur de sort, d'après la ligne de fabrication de l'objet.
 - **po** et **PX** : l'artisan doit les avoir. Avec **Les PX ne peuvent pas coûter un niveau** activé, l'artisan ne peut dépenser que les PX au-dessus du minimum de son niveau.
@@ -60,7 +64,7 @@ Pour les objets de compendium (armes magiques spécifiques, anneaux, sceptres, b
 - Tout le reste est listé pour que le MJ le vérifie.
 - **Cost 1,250 gp + 5,100 XP** n'importe où dans la description remplace le coût habituel (la moitié du prix en po, 1/25 en PX).
 - **Price** est lu aussi, et utilisé quand le prix du compendium manque ou est faux.
-- La ligne est lue en anglais. Les objets du SRD traduits utilisent leur ligne anglaise ; vos propres objets ont besoin de la ligne en anglais.
+- La ligne peut être en anglais, en français, en espagnol ou en portugais : *NLS 5* (aussi NL, NC, NM), *Prérequis :* / *Requisitos:*, *ou* / *o* entre les noms, *Prix 12 000 po* / *Precio* / *Preço*, *Coût 6 000 po + 480 PX* (aussi Costo, Custo ; mo, PE). Les milliers peuvent s'écrire 1,250, 1 250 ou 1.250. Un don écrit sous le nom qu'affiche votre monde compte comme son nom anglais. Les objets du SRD traduits utilisent leur ligne anglaise.
 - Sans ligne de fabrication, l'objet peut quand même être créé, mais c'est le MJ qui décide de ce qu'il demande.
 
 ## Coût et temps

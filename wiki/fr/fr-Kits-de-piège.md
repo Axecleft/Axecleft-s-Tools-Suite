@@ -9,7 +9,7 @@ Un **kit de piège** est un objet qui contient les pièces d'un piège mécaniqu
 - **Artisanat** : un personnage en fabrique un avec Artisanat (fabrication de pièges), dans l'onglet **Kits de piège** de la fenêtre d'[Artisanat](fr-Onglets-artisanat#kits-de-piège). Le kit va dans l'inventaire de l'artisan.
 - **À partir d'un acteur piège (MJ)** : faites un clic droit sur un acteur piège dans la barre latérale des Acteurs et choisissez **Créer un kit de piège**. Le kit est créé dans le dossier d'Objets **Trap Kits** ; faites-le glisser sur un personnage ou un marchand.
 
-Les kits sont réservés aux pièges mécaniques. Les pièges magiques viennent des sorts.
+Les kits de piège sont réservés aux pièges mécaniques. Les pièges magiques se font dans l'onglet [Pièges magiques](fr-Onglets-artisanat#magic-traps) de la fenêtre d'Artisanat, sous forme d'objet **Piège magique** : par défaut, seul le lanceur de sorts qui l'a construit peut le poser, sur la scène où il a été construit (voir **Pièges magiques : transportables** ci-dessous).
 
 La description du kit donne le piège et son FP, le temps de pose, et son DD de récupération.
 
@@ -27,6 +27,8 @@ Une fois posé :
 - Qui voit le token dépend de **Kits de piège : qui voit un piège posé** (ci-dessous).
 
 La pose prend 1 minute par FP. La carte montre le temps, mais le temps de jeu n'avance pas.
+
+Avec **Kits de piège : Artisanat (fabrication de pièges) requis** activé (par défaut), le personnage doit avoir au moins 1 degré de maîtrise en Artisanat (fabrication de pièges) pour poser un kit.
 
 ## Récupérer un piège
 
@@ -88,9 +90,15 @@ Dans **Configurer les paramètres → Pièges, poisons et maladies d'Axecleft**.
 
 | Paramètre | Par défaut | Effet |
 |---|---|---|
+| **Kits de piège : Artisanat (fabrication de pièges) requis** | Activé | Fabriquer et poser un kit de piège mécanique demande au moins 1 degré de maîtrise en Artisanat (fabrication de pièges). Désactivé : tout le monde le peut, comme le permet le SRD. |
+| **Pièges magiques : transportables** | Désactivé | Désactivé : un objet Piège magique ne peut être posé que par le lanceur de sorts qui l'a construit, sur la scène où il a été construit. Activé : c'est un kit que tout lanceur de sorts peut transporter et poser. Les pièges magiques ne sont jamais remis en kit. |
 | **Kits de piège : le MJ approuve** | Activé | Un joueur qui pose ou récupère un piège envoie une demande que le MJ approuve sur sa carte de chat. Désactivé : c'est immédiat. |
 | **Kits de piège : la pose prend du temps** | Activé | La pose prend 1 minute par FP (affiché sur la carte ; le temps de jeu n'avance pas). Désactivé : les pièges sont posés immédiatement. La récupération prend toujours 1 minute par FP. |
 | **Kits de piège : qui voit un piège posé** | MJ seulement, plus un repère pour le joueur qui l'a posé | **MJ seulement** : un token caché. **Tout le monde** : un token visible (le MJ décide si les créatures le repèrent). **MJ seulement, plus un repère** : un token caché, et le joueur qui l'a posé voit un repère qu'il peut partager (Mes pièges). |
 | **Kits de piège : les pièges posés peuvent être récupérés** | Activé | Désactivé : une fois posé, un piège reste jusqu'à ce qu'il soit déclenché ou désactivé. |
 | **Kits de piège : compendiums pour l'artisanat** | Vide | Les compendiums d'acteurs dont les pièges mécaniques peuvent être fabriqués en kits, séparés par des virgules (par exemple `traps-and-poisons.traps`). Vide : tous les compendiums qui contiennent des acteurs pièges. |
 | **Kits de piège : progression de la fabrication** | Pièces d'argent (SRD) | La pièce dans laquelle est comptée la progression hebdomadaire d'Artisanat (fabrication de pièges) : le test × le DD en **Pièces de cuivre** (10 fois plus lent), **Pièces d'argent** (SRD), **Pièces d'or** (10 fois plus rapide) ou **Pièces de platine** (100 fois plus rapide). L'argent du SRD fait durer des années les pièges coûteux : une fosse hérissée à large ouverture (7 200 po, DD 25) prend 288 semaines à un artisan dont le test est de 10. |
+
+## Visites guidées
+
+Les onglets **Kits de piège** et **Pièges magiques** de la fenêtre d'Artisanat ont chacun une visite guidée : le menu **⋮** de la fenêtre → **Visite de cet onglet** (sous Foundry 11, le bouton **Visite** de la barre de titre), ou **Configurer les paramètres → Gestion des visites guidées**.

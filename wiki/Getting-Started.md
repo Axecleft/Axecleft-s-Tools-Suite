@@ -27,10 +27,21 @@ Optional: **Babele** and a translation module (for example the French D35E trans
 | Weapons, armor, shields, ammunition | | ✔ | | |
 | Potions, scrolls, wands, rings, rods, staffs, wondrous and psionic items | | | ✔ | |
 | [Merchant Generator](Merchant-Generator) and [Shop Tags](Shop-Tags) | ✔ | ✔ | ✔ | |
+| [Axecleft's Shop](Axecleft's-Shop) sheet: merchants, loot, party storage | ✔ | ✔ | ✔ | |
 | [Crafting](Crafting) window | | ✔ | ✔ | ✔ |
 | [Forge](Forge) tab | | ✔ | | |
 | [Curios Workshop](Curios-Workshop) tab, Common Buffs compendium | | | ✔ | |
 | Traps, poisons, diseases, trap kits | | | | ✔ |
+
+The other modules each stand alone:
+
+| Module | What you get |
+|---|---|
+| **Axecleft's Hoard Editor** | The **Hoards** tab of the Treasure Generator (needs Gemstones, Armory or Curios for the Treasure Generator). See [Hoard Editor](Hoard-Editor). |
+| **Axecleft's Adventurers and Minions** | The character builder: Build, Random and Edit. See [Adventurers and Minions](Adventurers-and-Minions). |
+| **Axecleft's VooDoo** | Mobile accounts and the phone window. See [VooDoo](VooDoo). |
+| **Axecleft's Printable Sheets** | Print buttons and menu entries. See [Printable Sheets](Printable-Sheets). |
+| **Axecleft's Tool Suite** | The suite manager: modules on and off, update checks. See [Axecleft's Tool Suite](Axecleft's-Tools-Suite). |
 
 The shared windows run as long as **any** module that ships them is active. With only Gemstones, the Treasure Generator rolls coins, gems and art, and lists the magic items in the chat card for you to handle. Add Armory and Curios and those items are made for you.
 
@@ -43,14 +54,20 @@ All the tools are in the **Axecleft's Tools** group on Foundry's left toolbar, n
 - **Merchant Generator**: create, stock and restock merchants.
 - **Shop Tags**: tag compendium items with the shops that sell them.
 - **Random Trap Generator**: roll random traps by CR and create trap actors.
+- **Adventurers and Minions**: build, roll or edit characters and NPCs (with A&M).
+- **Mobile accounts**: create your players' phone accounts (with VooDoo).
 
 The Treasure Generator also has a **Treasure** button at the top of the **Items** sidebar.
 
 > **<img width="460" height="412" alt="image" src="https://github.com/user-attachments/assets/fdf98582-71b7-4a44-8bbc-c5253b7fcb3e" />**
 
-Most tools are for the GM. Players see **Crafting** in their Axecleft's Tools group while the setting **Players may craft** is on (see [Crafting](Crafting)), **My Traps** (with Traps, Poisons, and Diseases), and **User Guide**.
+Most tools are for the GM. Players see **Crafting** in their Axecleft's Tools group while the setting **Players may craft** is on (see [Crafting](Crafting)), **My Traps** (with Traps, Poisons, and Diseases), **Adventurers and Minions** (with A&M: they edit the actors they own and can build new ones; see [Who can use it](Adventurers-and-Minions)), and **User Guide**.
 
 The last button, **User Guide**, opens this wiki in your web browser.
+
+## Tours
+
+Most windows have guided tours. Open **Configure Settings → Tour Management** and look under the module's name, or use **Tour of this tab** in a window's ⋮ menu (Foundry 13–14). On Foundry 11 the window's title bar has a **Tour** button instead. Players get tours for the windows they use too (the shop sheet, A&M, the VooDoo phone window).
 
 ## First things to set up
 
@@ -61,6 +78,6 @@ The last button, **User Guide**, opens this wiki in your web browser.
 
 ## Updating
 
-Install updates from Foundry's **Add-on Modules** tab as usual. Your settings, Treasure Lists journal and custom lists are kept: custom lists are also saved to a file in your Data folder (see [Treasure Lists](Treasure-Lists)), so they survive module updates.
+Install updates from Foundry's **Add-on Modules** tab as usual. With **Axecleft's Tool Suite** installed, a GM is told when Axecleft updates are out, and its window checks every module against the right downloads for your Foundry version (see [Axecleft's Tool Suite](Axecleft's-Tools-Suite)). Your settings, Treasure Lists journal and custom lists are kept: custom lists are also saved to a file in your Data folder (see [Treasure Lists](Treasure-Lists)), so they survive module updates.
 
 After an update, restart Foundry and refresh the browser with **Ctrl+F5** so it loads the new scripts.
