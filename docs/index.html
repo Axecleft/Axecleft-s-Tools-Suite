@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Axecleft's Tool Suite: install links</title>
+<meta name="description" content="Pick a module and your Foundry version to copy its manifest link.">
+<style>
+:root { --bg:#f6f3ee; --card:#fffdf9; --ink:#2b2622; --dim:#6b625a; --line:#d9d0c4; --accent:#8a3b1f; --accent-ink:#fff; --ok:#2f6b3a; --code:#f1ece4; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#1b1917; --card:#24211e; --ink:#ece6de; --dim:#a69c91; --line:#3d3731; --accent:#d9774f; --accent-ink:#1b1917; --ok:#7cc48a; --code:#2d2925; } }
+:root[data-theme="dark"] { --bg:#1b1917; --card:#24211e; --ink:#ece6de; --dim:#a69c91; --line:#3d3731; --accent:#d9774f; --accent-ink:#1b1917; --ok:#7cc48a; --code:#2d2925; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 32px 16px 48px; }
+header { display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+h1 { font-size: 1.5rem; margin: 0 0 4px; letter-spacing:-0.01em; }
+.lang { display:flex; gap:4px; }
+.lang button { background:none; border:1px solid var(--line); color:var(--dim); border-radius:6px; padding:2px 8px; font:inherit; font-size:.85rem; cursor:pointer; }
+.lang button[aria-pressed="true"] { color:var(--ink); border-color:var(--ink); }
+p.lead { color:var(--dim); margin: 0 0 24px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; }
+label { display:block; font-weight:600; margin: 0 0 6px; }
+select { width:100%; font:inherit; padding:10px 12px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--ink); }
+.field { margin-bottom: 18px; }
+.seg { display:flex; gap:8px; flex-wrap:wrap; }
+.seg button { flex:1 1 140px; font:inherit; padding:10px 12px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--ink); cursor:pointer; text-align:left; }
+.seg button small { display:block; color:var(--dim); font-size:.8rem; }
+.seg button[aria-pressed="true"] { border-color:var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.seg button:disabled { opacity:.45; cursor:default; }
+.desc { color:var(--dim); font-size:.92rem; margin: 6px 0 0; }
+.note { margin: 8px 0 0; font-size:.9rem; border-left:3px solid var(--accent); padding-left:10px; }
+.out { display:flex; gap:8px; align-items:stretch; flex-wrap:wrap; }
+.out input { flex:1 1 300px; min-width:0; font: 13px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; padding:10px 12px; border:1px solid var(--line); border-radius:8px; background:var(--code); color:var(--ink); }
+.out button { font:inherit; font-weight:600; padding:10px 18px; border:none; border-radius:8px; background:var(--accent); color:var(--accent-ink); cursor:pointer; flex: 0 0 auto; }
+.status { min-height:1.5em; margin-top:8px; font-size:.9rem; color:var(--ok); }
+ol { color:var(--dim); padding-left: 20px; margin: 24px 0 0; }
+ol b { color:var(--ink); }
+footer { margin-top: 28px; font-size:.85rem; color:var(--dim); }
+footer a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1 data-t="title">Install links</h1>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en">English</button><button type="button" data-lang="fr">Français</button>
+    </div>
+  </header>
+  <p class="lead" data-t="lead">Pick a module and your Foundry version, then copy its manifest link.</p>
+  <div class="card">
+    <div class="field">
+      <label for="mod" data-t="module">Module</label>
+      <select id="mod"></select>
+      <p class="desc" id="desc"></p>
+      <p class="note" id="note" hidden></p>
+    </div>
+    <div class="field">
+      <span class="label" style="display:block;font-weight:600;margin-bottom:6px" data-t="version">Foundry version</span>
+      <div class="seg" role="group">
+        <button type="button" id="v14" aria-pressed="true"><span data-t="v14">Foundry 13 and 14</span><small>D35E 3.x · 1.14.x</small></button>
+        <button type="button" id="v11" aria-pressed="false"><span data-t="v11">Foundry 11</span><small>D35E 2.4.3 · 1.11.x</small></button>
+      </div>
+    </div>
+    <label for="url" data-t="link">Manifest link</label>
+    <div class="out">
+      <input id="url" type="text" readonly spellcheck="false">
+      <button type="button" id="copy" data-t="copy">Copy</button>
+    </div>
+    <div class="status" id="status" role="status" aria-live="polite"></div>
+  </div>
+  <ol>
+    <li data-t="s1">In Foundry's Setup screen, open <b>Add-on Modules</b>.</li>
+    <li data-t="s2">Press <b>Install Module</b>.</li>
+    <li data-t="s3">Paste the link into <b>Manifest URL</b> and press <b>Install</b>.</li>
+  </ol>
+  <footer><span data-t="foot">The links always point to the latest release.</span> · <a id="wiki" href="https://github.com/Axecleft/Axecleft-s-Tools-Suite/wiki/Install-Links" data-t="wiki">User Guide</a></footer>
+</main>
+<script>
+const MODS = [{"en": "Axecleft's Gemstones", "fr": "Axecleft's Gemstones", "dEn": "Gems, art objects and jewelry, with the Treasure Generator and Merchant Generator.", "dFr": "Gemmes, objets d'art et bijoux, avec le Générateur de trésors et le Générateur de marchands.", "v14": "Axeclefts-Gemstones", "v11": "Axeclefts-Gemstones-v11", "nEn": null, "nFr": null}, {"en": "Axecleft's Armory", "fr": "Armurerie d'Axecleft", "dEn": "Weapons, armor, shields and ammunition, and the Forge.", "dFr": "Armes, armures, boucliers et munitions, et la Forge.", "v14": "Armory", "v11": "Armory-v11", "nEn": null, "nFr": null}, {"en": "Axecleft's Curios", "fr": "Curiosités d'Axecleft", "dEn": "Potions, scrolls, wands, rings, rods, staffs, wondrous and psionic items.", "dFr": "Potions, parchemins, baguettes, anneaux, sceptres, bâtons, objets merveilleux et psioniques.", "v14": "Curios", "v11": "Curios-v11", "nEn": null, "nFr": null}, {"en": "Axecleft's Traps, Poisons, and Diseases", "fr": "Pièges, poisons et maladies d'Axecleft", "dEn": "Traps, poisons and diseases, the Random Trap Generator and trap kits.", "dFr": "Pièges, poisons et maladies, le Générateur de pièges aléatoires et les kits de piège.", "v14": "Traps-and-Poisons", "v11": "Traps-and-Poisons-v11", "nEn": null, "nFr": null}, {"en": "Axecleft's Hoard Editor", "fr": "Éditeur de trésors d'Axecleft", "dEn": "The Treasure Generator's Hoards tab.", "dFr": "L'onglet Trésors du Générateur de trésors.", "v14": "Axeclefts-Hoard-Editor", "v11": "Axeclefts-Hoard-Editor-v11", "nEn": "Needs Axecleft's Gemstones, Armory or Curios (for the Treasure Generator).", "nFr": "Nécessite Gemmes, Armurerie ou Curiosités d'Axecleft (pour le Générateur de trésors)."}, {"en": "Axecleft's Adventurers and Minions", "fr": "Aventuriers et Serviteurs d'Axecleft", "dEn": "Build, roll and edit characters and NPCs.", "dFr": "Créer, tirer au hasard et modifier personnages et PNJ.", "v14": "Axeclefts-Adventurers-Minions", "v11": "Axeclefts-Adventurers-Minions-v11", "nEn": null, "nFr": null}, {"en": "Axecleft's VooDoo", "fr": "Axecleft's VooDoo", "dEn": "A player's character sheet on their phone.", "dFr": "La feuille de personnage d'un joueur sur son téléphone.", "v14": "Axeclefts-VooDoo", "v11": "Axeclefts-VooDoo-v11", "nEn": null, "nFr": null}, {"en": "Axecleft's Printable Sheets", "fr": "Fiches imprimables d'Axecleft", "dEn": "Paper character sheets, stat blocks and printouts.", "dFr": "Feuilles de personnage, blocs de statistiques et impressions papier.", "v14": "Axeclefts-Printable-Sheets", "v11": "Axeclefts-Printable-Sheets-v11", "nEn": null, "nFr": null}, {"en": "Axecleft's Tool Suite", "fr": "Suite d'outils d'Axecleft", "dEn": "Turns the modules on and off and checks for updates. One download for every Foundry version.", "dFr": "Active et désactive les modules et cherche les mises à jour. Un seul téléchargement pour toutes les versions de Foundry.", "v14": "Axecleft-s-Tools-Suite", "v11": "Axecleft-s-Tools-Suite", "nEn": null, "nFr": null}];
+const T = {
+  en: { title:"Install links", lead:"Pick a module and your Foundry version, then copy its manifest link.", module:"Module", version:"Foundry version", v14:"Foundry 13 and 14", v11:"Foundry 11", link:"Manifest link", copy:"Copy", copied:"Copied. Paste it into Foundry's Manifest URL box.", failed:"Couldn't copy: select the link and copy it by hand.", both:"One download for every Foundry version.",
+    s1:"In Foundry's Setup screen, open <b>Add-on Modules</b>.", s2:"Press <b>Install Module</b>.", s3:"Paste the link into <b>Manifest URL</b> and press <b>Install</b>.", foot:"The links always point to the latest release.", wiki:"User Guide", wikiUrl:"https://github.com/Axecleft/Axecleft-s-Tools-Suite/wiki/Install-Links" },
+  fr: { title:"Liens d'installation", lead:"Choisissez un module et votre version de Foundry, puis copiez son lien de manifeste.", module:"Module", version:"Version de Foundry", v14:"Foundry 13 et 14", v11:"Foundry 11", link:"Lien du manifeste", copy:"Copier", copied:"Copié. Collez-le dans la case URL du manifeste de Foundry.", failed:"Copie impossible : sélectionnez le lien et copiez-le à la main.", both:"Un seul téléchargement pour toutes les versions de Foundry.",
+    s1:"Dans l'écran de configuration de Foundry, ouvrez <b>Modules complémentaires</b>.", s2:"Cliquez sur <b>Installer un module</b>.", s3:"Collez le lien dans <b>URL du manifeste</b> et cliquez sur <b>Installer</b>.", foot:"Les liens pointent toujours vers la dernière version.", wiki:"Guide d'utilisation", wikiUrl:"https://github.com/Axecleft/Axecleft-s-Tools-Suite/wiki/fr-Liens-d'installation" },
+};
+const $ = (id) => document.getElementById(id);
+const store = { get(k){ try { return localStorage.getItem(k); } catch(e) { return null; } }, set(k,v){ try { localStorage.setItem(k,v); } catch(e) {} } };
+const params = new URLSearchParams(location.search);
+let lang = params.get("lang") || store.get("axts.lang") || ((navigator.language || "en").toLowerCase().startsWith("fr") ? "fr" : "en");
+if (!T[lang]) lang = "en";
+let gen = params.get("foundry") === "11" ? "v11" : (store.get("axts.gen") || "v14");
+let idx = Math.max(0, MODS.findIndex((m) => m.v14.toLowerCase() === String(params.get("module") || "").toLowerCase()));
+if (!params.get("module")) idx = Math.max(0, Math.min(MODS.length - 1, Number(store.get("axts.mod")) || 0));
+const url = (repo) => `https://github.com/Axecleft/${repo}/releases/latest/download/module.json`;
+function render() {
+  const t = T[lang];
+  document.documentElement.lang = lang;
+  document.querySelectorAll("[data-t]").forEach((el) => { const k = el.dataset.t; if (k in t) el.innerHTML = t[k]; });
+  document.querySelectorAll(".lang button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
+  $("wiki").href = t.wikiUrl;
+  const sel = $("mod");
+  sel.innerHTML = MODS.map((m, i) => `<option value="${i}">${lang === "fr" ? m.fr : m.en}</option>`).join("");
+  sel.value = String(idx);
+  const m = MODS[idx], single = m.v14 === m.v11;
+  $("desc").textContent = (lang === "fr" ? m.dFr : m.dEn);
+  const note = lang === "fr" ? m.nFr : m.nEn;
+  $("note").hidden = !note; $("note").textContent = note || "";
+  $("v14").setAttribute("aria-pressed", String(single || gen === "v14"));
+  $("v11").setAttribute("aria-pressed", String(single || gen === "v11"));
+  $("url").value = url(single ? m.v14 : m[gen]);
+  $("status").textContent = "";
+}
+async function copy() {
+  const box = $("url"), t = T[lang];
+  let ok = false;
+  try { await navigator.clipboard.writeText(box.value); ok = true; } catch (e) {
+    try { box.focus(); box.select(); ok = document.execCommand("copy"); } catch (e2) { ok = false; }
+  }
+  $("status").style.color = ok ? "" : "var(--accent)";
+  $("status").textContent = ok ? t.copied : t.failed;
+  if (!ok) { box.focus(); box.select(); }
+}
+$("mod").addEventListener("change", (e) => { idx = Number(e.target.value); store.set("axts.mod", idx); render(); });
+$("v14").addEventListener("click", () => { gen = "v14"; store.set("axts.gen", gen); render(); });
+$("v11").addEventListener("click", () => { gen = "v11"; store.set("axts.gen", gen); render(); });
+$("copy").addEventListener("click", copy);
+$("url").addEventListener("focus", (e) => e.target.select());
+document.querySelectorAll(".lang button").forEach((b) => b.addEventListener("click", () => { lang = b.dataset.lang; store.set("axts.lang", lang); render(); }));
+render();
+</script>
+</body>
+</html>
