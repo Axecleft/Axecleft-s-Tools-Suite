@@ -1,0 +1,37 @@
+.axecleft-suite .window-content { padding: 0.5rem 0.75rem; }
+
+.axecleft-suite .axs-header {
+  display: flex; flex-wrap: wrap; align-items: center;
+  justify-content: space-between; gap: 0.5rem; margin-bottom: 0.5rem;
+}
+.axecleft-suite .axs-intro { margin: 0; flex: 1 1 18rem; }
+.axecleft-suite .axs-links { display: flex; gap: 0.75rem; }
+.axecleft-suite .axs-links a { white-space: nowrap; }
+
+.axecleft-suite .axs-table-wrap { max-height: 60vh; overflow-y: auto; }
+.axecleft-suite .axs-table { width: 100%; border-collapse: collapse; margin: 0; }
+.axecleft-suite .axs-table th { text-align: left; font-size: 0.85em; padding: 0.3rem 0.4rem; }
+.axecleft-suite .axs-table td { padding: 0.35rem 0.4rem; vertical-align: middle; }
+.axecleft-suite .axs-col-toggle { width: 4.5rem; text-align: center !important; }
+.axecleft-suite .axs-title { font-weight: bold; }
+.axecleft-suite .axs-reason { font-size: 0.82em; opacity: 0.75; }
+.axecleft-suite .axs-dash { opacity: 0.5; }
+
+.axecleft-suite .axs-status { white-space: nowrap; }
+.axecleft-suite .axs-current .axs-status i { color: #3c9a46; }
+.axecleft-suite .axs-update .axs-status { color: #d08a1c; font-weight: bold; }
+.axecleft-suite .axs-ahead .axs-status i { color: #6b7bd1; }
+.axecleft-suite .axs-unknown .axs-status { opacity: 0.7; }
+.axecleft-suite .axs-missing { opacity: 0.7; }
+.axecleft-suite .axs-changed { background: rgba(208, 138, 28, 0.15); }
+
+.axecleft-suite .axs-actions { white-space: nowrap; text-align: right; }
+.axecleft-suite .axs-actions button { width: auto; padding: 0 0.4rem; display: inline-flex; }
+
+.axecleft-suite .axs-note { font-size: 0.85em; opacity: 0.8; margin: 0.5rem 0; }
+
+.axecleft-suite .axs-footer { display: flex; align-items: center; gap: 0.5rem; }
+.axecleft-suite .axs-footer .axs-last { flex: 1; font-size: 0.85em; opacity: 0.75; }
+.axecleft-suite .axs-footer button { flex: 0 0 auto; width: auto; }
+
+#settings .axs-open-button { width: 100%; }

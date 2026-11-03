@@ -1,0 +1,56 @@
+{
+  "AXETS": {
+    "Title": "Axecleft's Tool Suite",
+    "Open": "Open Tool Suite",
+    "MenuHint": "Enable or disable the installed Axecleft modules and check for updates.",
+    "Intro": "Turn suite modules on or off for this world and check GitHub for new versions.",
+    "Links": {
+      "Wiki": "User Guide",
+      "Discord": "Discord",
+      "Patreon": "Patreon"
+    },
+    "Col": {
+      "Enabled": "Enabled",
+      "Module": "Module",
+      "Installed": "Installed",
+      "Latest": "Latest",
+      "Status": "Status"
+    },
+    "Status": {
+      "current": "Up to date",
+      "update": "Update available",
+      "ahead": "Development build",
+      "unknown": "Not checked",
+      "missing": "Not installed"
+    },
+    "HubLocked": "The Tool Suite manager stays enabled while you use it.",
+    "Changelog": "Changelog / release notes",
+    "CopyManifest": "Copy manifest URL (paste it in Setup → Add-on Modules → Install Module)",
+    "UpdateNote": "Updates and new installs are done from Foundry's Setup screen: Add-on Modules → Update All updates every installed suite module.",
+    "LastChecked": "Last checked:",
+    "NeverChecked": "Updates not checked yet.",
+    "Check": "Check for Updates",
+    "Apply": "Apply & Reload",
+    "Notify": {
+      "Updates": "{count} Axecleft module update(s) available.",
+      "UpdatesStartup": "Axecleft's Tool Suite: {count} update(s) available. Install them from the Setup screen (Update All).",
+      "NoUpdates": "All installed Axecleft modules are up to date.",
+      "CheckFailed": "Could not check for updates. See the console for details.",
+      "MissingRequired": "Can't enable — required module not installed: {list}",
+      "Copied": "Manifest URL copied to clipboard.",
+      "GMOnly": "Only a GM can manage the Tool Suite."
+    },
+    "Settings": {
+      "Notify": {
+        "Name": "Update notice on startup",
+        "Hint": "When a GM loads the world, check for Axecleft module updates (at most every 6 hours) and show a notice."
+      }
+    },
+    "ApplyDialog": {
+      "Title": "Apply Module Changes",
+      "Content": "These modules will be changed and the world reloaded:",
+      "AlsoEnabled": "Required modules also enabled: {list}"
+    },
+    "ForFoundry": "Checking the module builds for Foundry {version} (Foundry 13-14 from each module's repository, Foundry 11-12 from its v11 repository)."
+  }
+}
